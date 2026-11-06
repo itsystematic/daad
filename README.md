@@ -1,33 +1,111 @@
-### DaaD
+# DaaD — ERPNext in Arabic
 
-Making ERPNext Truly Arabic
+**DaaD** (ضاد) is an open-source Frappe app that gives ERPNext a complete, human-made Arabic translation and the Almarai typeface across the whole system.
 
-### Installation
+Arabic is known as *the language of Ḍād* (لغة الضاد). This app is our contribution to the Frappe community in the Arab world.
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+> **بالعربي:** ترجمة عربية بشرية كاملة لنظام ERPNext v16، مع خط المراعي في كل أجزاء النظام. مجانية ومفتوحة المصدر.
+
+---
+
+## 📸 Before & After
+
+| Before (default) | After (DaaD) |
+|---|---|
+| ![Before](docs/images/before.png) | ![After](docs/images/after.png) |
+
+---
+
+## 🚀 What's Inside
+
+### **Human Arabic Translation**
+- **14,883 strings** translated by people who implement ERPNext every day — not machine translation.
+- Covers **ERPNext, Frappe and HRMS** for **version 16**.
+- Includes the hard places: dashboards, settings dialogs, the new **dock** and sidebar, popups and tooltips.
+- The **HR module** is fully translated.
+- Business terminology chosen for real use in Saudi and Gulf companies.
+
+### **Client-side Translation Fixes**
+Some labels in Frappe are rendered without `__()`, so a normal translation file cannot reach them. DaaD includes a small script that translates:
+- Module dock labels and tooltips
+- Sidebar items and section headings
+- Filter counters and a few built-in button titles
+
+### **Almarai Font**
+- **Almarai** applied to the Desk, Website, Portal and print preview.
+- **4 weights** (Light 300, Regular 400, Bold 700, ExtraBold 800), each with Arabic and Latin subsets.
+- Self-hosted inside the app — no calls to Google Fonts.
+- Frappe Charts (axes, legends, tooltips) use the same font.
+
+---
+
+## 📦 Installation
+
+1. Get the app:
+   ```bash
+   bench get-app https://github.com/itsystematic/daad.git --branch version-16
+   ```
+2. Build the app:
+   ```bash
+   bench build --app daad
+   ```
+3. Install the app on your site:
+   ```bash
+   bench --site [your.site.name] install-app daad
+   ```
+4. Clear the cache and restart:
+   ```bash
+   bench --site [your.site.name] clear-cache
+   bench restart
+   ```
+5. Set the language to **Arabic** from **User Settings → Preferences → Change Language**, or for the whole system from **System Settings**.
+
+### Supported Versions
+- ERPNext / Frappe **Version 16**
+
+---
+
+## 🔄 Updates
+
+We review and update the translation **every three months**, following new ERPNext releases. To get the latest version:
 
 ```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch version-16
-bench install-app daad
+cd apps/daad && git pull
+bench build --app daad
+bench --site [your.site.name] clear-cache
 ```
 
-### Contributing
+---
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+## 🤝 Contributing
+
+Found a wrong or missing translation? We welcome your help.
+
+1. Fork the repository.
+2. Edit `daad/translations/ar.csv`. Each line is `English source,Arabic translation`.
+3. Keep the English source text exactly as it appears in Frappe (including punctuation and placeholders like `{0}`).
+4. Open a pull request and explain the change, with a screenshot if possible.
+
+You can also report a problem in [GitHub Issues](https://github.com/itsystematic/daad/issues).
+
+This app uses `pre-commit` for formatting and linting:
 
 ```bash
 cd apps/daad
 pre-commit install
 ```
 
-Pre-commit is configured to use the following tools for checking and formatting your code:
+---
 
-- ruff
-- eslint
-- prettier
-- pyupgrade
+## 📜 License
 
-### License
+- **App code and translations:** GNU General Public License v3.0. See [license.txt](license.txt).
+- **Almarai font:** SIL Open Font License 1.1, © The Almarai Project Authors. See [OFL.txt](daad/public/fonts/OFL.txt).
 
-gpl-3.0
+---
+
+## 📂 More Apps by IT Systematic
+
+- **[Optima ZATCA](https://github.com/itsystematic/optima_zatca):** ZATCA e-invoicing compliance (Phase 1 & 2) for ERPNext.
+- **[Optima Payment](https://github.com/itsystematic/optima_payment):** Post-dated cheques, company expenses and bank guarantees.
+- **[Optima HR](https://github.com/itsystematic/optima-hr):** HR for Saudi Arabia on ERPNext.

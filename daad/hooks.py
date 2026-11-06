@@ -34,11 +34,11 @@ app_license = "gpl-3.0"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/daad/css/daad.css"
-# app_include_js = "/assets/daad/js/daad.js"
+app_include_css = "daad.bundle.css"
+app_include_js = "/assets/daad/js/daad_i18n.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/daad/css/daad.css"
+web_include_css = "daad.bundle.css"
 # web_include_js = "/assets/daad/js/daad.js"
 
 # include custom scss in every website theme (without file extension ".scss")
