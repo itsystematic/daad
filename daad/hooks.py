@@ -4,6 +4,7 @@ app_publisher = "IT Systematic"
 app_description = "Making ERPNext Truly Arabic"
 app_email = "yasserelbana@itsystematic.com"
 app_license = "gpl-3.0"
+app_logo_url = "/assets/daad/images/daad-logo.svg"
 
 # Apps
 # ------------------

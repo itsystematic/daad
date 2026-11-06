@@ -1,6 +1,10 @@
-# DaaD — ERPNext in Arabic
+<p align="center">
+  <img src="daad/public/images/daad-logo.svg" alt="DaaD logo" width="128">
+</p>
 
-**DaaD** (ضاد) is an open-source Frappe app that gives ERPNext a complete, human-made Arabic translation and the Almarai typeface across the whole system.
+# DaaD - Making ERPNext Truly Arabic
+
+**DaaD** (ضاد) is an open-source Frappe app that gives ERPNext a complete, human-made Arabic translation and the Almarai typeface across the whole system. It supports the latest release, **ERPNext v16.50**.
 
 Arabic is known as *the language of Ḍād* (لغة الضاد). This app is our contribution to the Frappe community in the Arab world.
 
@@ -61,7 +65,7 @@ Some labels in Frappe are rendered without `__()`, so a normal translation file 
 5. Set the language to **Arabic** from **User Settings → Preferences → Change Language**, or for the whole system from **System Settings**.
 
 ### Supported Versions
-- ERPNext / Frappe **Version 16**
+- ERPNext / Frappe **Version 16**, built on the latest release **ERPNext v16.50** (Frappe v16.51, HRMS v16.50)
 
 ---
 
