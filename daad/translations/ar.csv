@@ -948,7 +948,7 @@ Taxes and Charges Deducted,الضرائب والرسوم المخصومة
 Taxes and Charges Deducted (Company Currency),الضرائب والرسوم المخصومة (عملة الشركة)
 TDS Computation Summary,ملخص احتساب ضريبة الاستقطاع
 Terms,الشروط
-Territory Item,بند الإقليم
+Territory Item,بند المنطقة
 "Text displayed on the financial statement (e.g., 'Total Revenue', 'Cash and Cash Equivalents')",النص المعروض في القائمة المالية (مثل «إجمالي الإيرادات»، «النقد وما في حكمه»)
 "The account head under Liability or Equity, in which Profit/Loss will be booked",الحساب الرئيسي ضمن الالتزامات أو حقوق الملكية الذي سيُسجَّل فيه الربح/الخسارة
 "The percentage you are allowed to bill more against the amount ordered. For example, if the order value is $100 for an item and tolerance is set as 10%, then you are allowed to bill up to $110 ",النسبة المئوية المسموح لك بفوترتها زيادةً على المبلغ المطلوب. على سبيل المثال، إذا كانت قيمة الطلب 100 $ لصنف ما وتم تحديد هامش التسامح بنسبة 10%، فيُسمح لك بفوترة ما يصل إلى 110 $ 
@@ -1083,7 +1083,7 @@ Creating Journal Entries...,جارٍ إنشاء قيود اليومية...
 Creating Purchase Invoices ...,جارٍ إنشاء فواتير المشتريات ...
 Creating Purchase Receipt ...,جارٍ إنشاء إشعار استلام مشتريات ...
 Creating Sales Invoices ...,جارٍ إنشاء فواتير المبيعات ...
-Customer > Customer Group > Territory,عميل > مجموعة العملاء > إقليم
+Customer > Customer Group > Territory,عميل > مجموعة العملاء > منطقة
 Difference Amount,مبلغ الفرق
 Dimension Filter,عامل تصفية البُعد
 Disable Opening Balance Calculation,تعطيل احتساب الرصيد الافتتاحي
@@ -9705,8 +9705,8 @@ Set incoming rate as zero for expired Batch,ضبط سعر الوارد على ص
 Skip Delivery Note,تخطي إشعار التسليم
 Split commission credit across multiple sales persons.,تقسيم رصيد العمولة بين عدة مندوبي مبيعات.
 TDS/TCS is calculated at the rate defined here on every payment from this customer.,يُحتسب TDS/TCS بالنسبة المحددة هنا على كل دفعة من هذا العميل.
-Territory Target Variance Based On Item Group,تباين أهداف الإقليم بناءً على مجموعة الأصناف
-Territory-wise Sales,المبيعات حسب الإقليم
+Territory Target Variance Based On Item Group,تباين أهداف المنطقة بناءً على مجموعة الأصناف
+Territory-wise Sales,المبيعات حسب المنطقة
 The frequency at which project progress and company transaction details will be updated. Set it to daily or monthly if you post a lot of transactions.,الوتيرة التي يُحدَّث بها تقدم المشروع وتفاصيل معاملات الشركة. اضبطها على يومي أو شهري إذا كان لديك عدد كبير من المعاملات.
 "This allows creation of sales orders from quotations that have passed their expiration date, providing flexibility in processing orders despite outdated quotes.",يتيح إنشاء أوامر بيع من عروض أسعار انتهت مدة صلاحيتها، بما يمنح مرونة في معالجة الأوامر رغم انتهاء صلاحية العروض.
 Total Message(s),إجمالي الرسائل
