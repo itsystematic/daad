@@ -86,7 +86,7 @@ bench --site [your.site.name] clear-cache
 Found a wrong or missing translation? We welcome your help.
 
 1. Fork the repository.
-2. Edit `daad/translations/ar.csv`. Each line is `English source,Arabic translation`.
+2. Edit `daad/locale/ar.po`. Each entry is a `msgid` (English source) with its `msgstr` (Arabic translation); ambiguous terms also have a `msgctxt`.
 3. Keep the English source text exactly as it appears in Frappe (including punctuation and placeholders like `{0}`).
 4. Open a pull request and explain the change, with a screenshot if possible.
 
