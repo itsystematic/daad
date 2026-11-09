@@ -3592,7 +3592,7 @@ msgid "Against Customer Order {0} dated {1}"
 msgstr "مقابل طلب العميل {0} بتاريخ {1}"
 
 msgid "Against Delivery Note Item"
-msgstr "مقابل بند إشعار التسليم"
+msgstr "مقابل صنف إشعار التسليم"
 
 msgid "Against Docname"
 msgstr "مقابل اسم المستند"
@@ -3622,7 +3622,7 @@ msgid "Against Sales Order"
 msgstr "مقابل أمر بيع"
 
 msgid "Against Sales Order Item"
-msgstr "مقابل بند أمر بيع"
+msgstr "مقابل صنف أمر بيع"
 
 msgid "Against Stock Entry"
 msgstr "مقابل حركة مخزون"
@@ -5237,7 +5237,7 @@ msgid "Approval workflow on Permissions."
 msgstr "مسار اعتماد الاستئذان."
 
 msgid "Approve"
-msgstr "موافقة"
+msgstr "اعتماد"
 
 msgid "Approve a leave request"
 msgstr "الموافقة على طلب إجازة"
@@ -5249,7 +5249,7 @@ msgid "Approve an expense claim and pay the employee back."
 msgstr "وافق على مطالبة مصروفات وسدد للموظف ما أنفقه."
 
 msgid "Approved"
-msgstr "تمت الموافقة"
+msgstr "معتمد"
 
 msgid "Approved Claims (This Month)"
 msgstr "المطالبات المعتمدة (هذا الشهر)"
@@ -5475,13 +5475,13 @@ msgid "Asset Capitalization"
 msgstr "رسملة أصل"
 
 msgid "Asset Capitalization Asset Item"
-msgstr "بند الأصل في رسملة الأصل"
+msgstr "صنف الأصل في رسملة الأصل"
 
 msgid "Asset Capitalization Service Item"
-msgstr "بند الخدمة في رسملة الأصل"
+msgstr "صنف الخدمة في رسملة الأصل"
 
 msgid "Asset Capitalization Stock Item"
-msgstr "بند المخزون في رسملة الأصل"
+msgstr "صنف المخزون في رسملة الأصل"
 
 msgid "Asset Category"
 msgstr "فئة الأصل"
@@ -5550,7 +5550,7 @@ msgid "Asset Movement"
 msgstr "حركة أصل"
 
 msgid "Asset Movement Item"
-msgstr "بند حركة الأصل"
+msgstr "صنف حركة الأصل"
 
 msgid "Asset Movement record {0} created"
 msgstr "تم إنشاء سجل حركة الأصل {0}"
@@ -5782,7 +5782,7 @@ msgid "Assigned Technician"
 msgstr "الفني المسؤول"
 
 msgid "Assigned To"
-msgstr "مُسند إلى"
+msgstr "المكلف بالتنفيذ"
 
 msgid "Assigned To/Owner"
 msgstr "المُسند إليه / المالك"
@@ -7946,7 +7946,7 @@ msgid "Break it into tasks"
 msgstr "تقسيمه إلى مهام"
 
 msgid "Breakdown"
-msgstr "عطل"
+msgstr "عطل طارئ"
 
 msgid "Bring every entry back onto the dock."
 msgstr "إعادة كل الإدخالات إلى شريط التطبيقات."
@@ -8027,7 +8027,7 @@ msgid "Budgeting"
 msgstr "الميزانيات التقديرية"
 
 msgid "Budgets"
-msgstr "الميزانيات التقديرية"
+msgstr "الموازنات"
 
 msgid "Buffer Time"
 msgstr "وقت احتياطي"
@@ -8420,7 +8420,7 @@ msgid "Camera permission was denied. Allow camera access in your browser setting
 msgstr "تم رفض إذن الكاميرا. يرجى السماح بالوصول إلى الكاميرا من إعدادات المتصفح ثم المحاولة مرة أخرى."
 
 msgid "Campaign Item"
-msgstr "بند الحملة"
+msgstr "صنف الحملة"
 
 msgid "Campaign Naming By"
 msgstr "تسمية الحملة بواسطة"
@@ -8529,7 +8529,7 @@ msgid "Cancellation of e-way bill is currently not supported."
 msgstr "إلغاء فاتورة e-way غير متاح حاليًا."
 
 msgid "Cancelled"
-msgstr "ملغى"
+msgstr "ملغي"
 
 msgid "Cancelled Document restored as Draft"
 msgstr "تمت استعادة المستند الملغى كمسودة"
@@ -10060,7 +10060,7 @@ msgid "Closing Balance as per ERP"
 msgstr "الرصيد الختامي حسب النظام"
 
 msgid "Closing Date"
-msgstr "تاريخ الإقفال"
+msgstr "تاريخ الإغلاق"
 
 msgid "Closing POS Shift"
 msgstr "إغلاق وردية في نقاط البيع"
@@ -11174,7 +11174,7 @@ msgid "Cost Allocation / Process Loss"
 msgstr "توزيع التكلفة / فاقد العملية الإنتاجية"
 
 msgid "Cost Center"
-msgstr "مركز تكلفة"
+msgstr "مركز التكلفة"
 
 msgid "Cost Center Allocation"
 msgstr "تخصيص مركز التكلفة"
@@ -12586,7 +12586,7 @@ msgid "Customer Group"
 msgstr "مجموعة عملاء"
 
 msgid "Customer Group Item"
-msgstr "بند مجموعة العملاء"
+msgstr "صنف مجموعة العملاء"
 
 msgid "Customer Group Name"
 msgstr "اسم مجموعة العملاء"
@@ -12700,7 +12700,7 @@ msgid "Customer: "
 msgstr "العميل:"
 
 msgid "Customers"
-msgstr "عملاء"
+msgstr "العملاء"
 
 msgid "Customers Without Any Sales Transactions"
 msgstr "عملاء بلا أي معاملات مبيعات"
@@ -13765,13 +13765,13 @@ msgid "Delivery Note {0} is not submitted"
 msgstr "لم يُعتمد إشعار التسليم {0}"
 
 msgid "Delivery Notes"
-msgstr "إشعارات التسليم"
+msgstr "أذون التسليم"
 
 msgid "Delivery Notes should not be in draft state when submitting a Delivery Trip. The following Delivery Notes are still in draft state: {0}. Please submit them first."
 msgstr "يجب ألا تكون إشعارات التسليم في حالة مسودة عند اعتماد رحلة التسليم. إشعارات التسليم التالية لا تزال في حالة مسودة: {0}. يرجى اعتمادها أولاً."
 
 msgid "Delivery Schedule Item"
-msgstr "بند جدول التسليم"
+msgstr "صنف جدول التسليم"
 
 msgid "Delivery Stops"
 msgstr "توقفات التسليم"
@@ -14736,7 +14736,7 @@ msgid "Document Tag"
 msgstr "وسم المستند"
 
 msgid "Document Type"
-msgstr "نوع المستند"
+msgstr "نوع الوثيقة"
 
 msgid "Document Type "
 msgstr "نوع المستند"
@@ -15496,7 +15496,7 @@ msgid "Edit DocType"
 msgstr "تعديل نوع المستند"
 
 msgid "Edit Expense Item"
-msgstr "تعديل بند المصروفات"
+msgstr "تعديل صنف المصروفات"
 
 msgid "Edit Expense Tax"
 msgstr "تعديل ضريبة المصروفات"
@@ -15892,7 +15892,7 @@ msgid "Emirate"
 msgstr "الإمارة"
 
 msgid "Employee"
-msgstr "موظف"
+msgstr "الموظف"
 
 msgid "Employee A/C Number"
 msgstr "رقم حساب الموظف"
@@ -16594,7 +16594,7 @@ msgid "Enable tracking sales commissions"
 msgstr "تفعيل تتبع عمولات المبيعات"
 
 msgid "Enabled"
-msgstr "مفعّل"
+msgstr "مفعل"
 
 msgid "Enabled Scheduler"
 msgstr "تم تفعيل المجدول"
@@ -17503,13 +17503,13 @@ msgid "Expense Date"
 msgstr "تاريخ المصروف"
 
 msgid "Expense Head"
-msgstr "بند المصروف"
+msgstr "صنف المصروف"
 
 msgid "Expense Head Changed"
 msgstr "تم تغيير حساب المصروف"
 
 msgid "Expense Item"
-msgstr "بند مصروفات"
+msgstr "صنف مصروفات"
 
 msgid "Expense Tax"
 msgstr "ضريبة المصروفات"
@@ -17557,7 +17557,7 @@ msgid "Expire Notification On"
 msgstr "انتهاء الإشعار في"
 
 msgid "Expired"
-msgstr "منتهي الصلاحية"
+msgstr "منتهي"
 
 msgid "Expired Batches"
 msgstr "تشغيلات منتهية الصلاحية"
@@ -17581,7 +17581,7 @@ msgid "Expires in a week or less"
 msgstr "تنتهي صلاحيته خلال أسبوع أو أقل"
 
 msgid "Expiring Soon"
-msgstr "تنتهي صلاحيته قريبًا"
+msgstr "قارب على الانتهاء"
 
 msgid "Expiring in 7 Days"
 msgstr "تنتهي صلاحيته خلال 7 أيام"
@@ -18742,7 +18742,7 @@ msgid "Fix issues summary"
 msgstr "ملخص إصلاح المشكلات"
 
 msgid "Fixed Asset"
-msgstr "أصل ثابت"
+msgstr "الأصل الثابت"
 
 msgid "Fixed Asset Account"
 msgstr "حساب الأصل الثابت"
@@ -19693,7 +19693,7 @@ msgid "Gap"
 msgstr "المسافة"
 
 msgid "Gate"
-msgstr "البوابة"
+msgstr "بوابة / خط تحميل"
 
 msgid "Gate / Loading Bay Name"
 msgstr "اسم البوابة / خط التحميل"
@@ -20338,7 +20338,7 @@ msgid "Google Translation"
 msgstr "ترجمة جوجل"
 
 msgid "Government Document"
-msgstr "مستند حكومي"
+msgstr "وثيقة نظامية"
 
 msgid "Government Document Expiry - 60 Days"
 msgstr "تنبيه انتهاء وثيقة نظامية قبل 60 يوم"
@@ -21022,7 +21022,7 @@ msgid "Hide timesheets"
 msgstr "إخفاء سجلات الوقت"
 
 msgid "High"
-msgstr "مرتفع"
+msgstr "عالية"
 
 msgid "Highlight"
 msgstr "تسليط الضوء"
@@ -22622,7 +22622,7 @@ msgid "Incorrect Payment Type"
 msgstr "نوع الدفع غير صحيح"
 
 msgid "Incorrect Reference Document (Purchase Receipt Item)"
-msgstr "مستند مرجعي غير صحيح (بند إشعار استلام مشتريات)"
+msgstr "مستند مرجعي غير صحيح (صنف إشعار استلام مشتريات)"
 
 msgid "Incorrect Serial No Valuation"
 msgstr "الرقم التسلسلي غير صحيح"
@@ -24302,7 +24302,7 @@ msgid "Issue Credit Note"
 msgstr "إصدار إشعار دائن"
 
 msgid "Issue Date"
-msgstr "تاريخ التذكرة"
+msgstr "تاريخ الإصدار"
 
 msgid "Issue Material"
 msgstr "صرف مواد"
@@ -25133,7 +25133,7 @@ msgid "Joining"
 msgstr "الانضمام"
 
 msgid "Journal Entries"
-msgstr "قيود اليومية"
+msgstr "القيود اليومية"
 
 msgid "Journal Entries {0} are un-linked"
 msgstr "قيود اليومية {0} غير مرتبطة"
@@ -26468,7 +26468,7 @@ msgid "Loaded"
 msgstr "تم التحميل"
 
 msgid "Loading"
-msgstr "جارٍ التحميل"
+msgstr "جاري التحميل"
 
 msgid "Loading Bay"
 msgstr "خط التحميل"
@@ -28084,7 +28084,7 @@ msgid "Minimum working days required since Date of Joining to apply for this lea
 msgstr "الحد الأدنى لأيام العمل المطلوبة منذ تاريخ الالتحاق للتقدم بطلب هذه الإجازة"
 
 msgid "Minor"
-msgstr "ثانوي"
+msgstr "بسيطة"
 
 msgid "Minutes"
 msgstr "المحضر"
@@ -28945,7 +28945,7 @@ msgid "New Employee ID"
 msgstr "رقم الموظف الجديد"
 
 msgid "New Expense Item"
-msgstr "بند مصروفات جديد"
+msgstr "صنف مصروفات جديد"
 
 msgid "New Expense Tax"
 msgstr "ضريبة مصروفات جديدة"
@@ -30150,7 +30150,7 @@ msgid "No. of parallel job cards which can be allowed on this workstation. Examp
 msgstr "عدد بطاقات عمل التشغيل المتوازية المسموح بها على محطة العمل هذه. مثال: 2 يعني أن محطة العمل هذه يمكنها معالجة إنتاج أمرَي إنتاج في وقت واحد."
 
 msgid "Non Conformance"
-msgstr "عدم مطابقة"
+msgstr "عدم المطابقة"
 
 msgid "Non Depreciable Category"
 msgstr "فئة غير قابلة للإهلاك"
@@ -30198,7 +30198,7 @@ msgid "Noop Source"
 msgstr "مصدر Noop"
 
 msgid "Normal"
-msgstr "عادي"
+msgstr "عادية"
 
 msgid "Normal Balances"
 msgstr "الأرصدة الطبيعية"
@@ -31696,7 +31696,7 @@ msgid "Opp Count"
 msgstr "عدد الفرص"
 
 msgid "Opportunities"
-msgstr "فرص البيع"
+msgstr "الفرص البيعية"
 
 msgid "Opportunities by Campaign"
 msgstr "الفرص حسب الحملة"
@@ -32059,7 +32059,7 @@ msgid "Over Billing Allowance (%)"
 msgstr "نسبة السماح بالفوترة الزائدة (%)"
 
 msgid "Over Billing Allowance exceeded for Purchase Receipt Item {0} ({1}) by {2}%"
-msgstr "تم تجاوز حد السماح بالفوترة الزائدة لبند إشعار استلام المشتريات {0} ({1}) بنسبة {2}%"
+msgstr "تم تجاوز حد السماح بالفوترة الزائدة لصنف إشعار استلام المشتريات {0} ({1}) بنسبة {2}%"
 
 msgid "Over Delivery/Receipt Allowance (%)"
 msgstr "نسبة السماح بالتسليم/الاستلام الزائد (%)"
@@ -33292,7 +33292,7 @@ msgid "Payment Dunning"
 msgstr "إنذار الدفع المتأخرات"
 
 msgid "Payment Entries"
-msgstr "سندات الدفع"
+msgstr "سندات القبض والصرف"
 
 msgid "Payment Entries {0} are un-linked"
 msgstr "سندات الدفع {0} غير مرتبطة"
@@ -33565,7 +33565,7 @@ msgid "Payroll Correction"
 msgstr "تصحيح الرواتب"
 
 msgid "Payroll Correction Child"
-msgstr "بند تصحيح الرواتب"
+msgstr "صنف تصحيح الرواتب"
 
 msgid "Payroll Cost Center"
 msgstr "مركز تكلفة الرواتب"
@@ -36098,7 +36098,7 @@ msgid "Priorities"
 msgstr "الأولويات"
 
 msgid "Priority"
-msgstr "أولوية"
+msgstr "الأولوية"
 
 msgid "Priority cannot be lesser than 1."
 msgstr "لا يمكن أن تكون الأولوية أقل من 1."
@@ -36329,7 +36329,7 @@ msgid "Production Line"
 msgstr "خط إنتاج"
 
 msgid "Production Plan"
-msgstr "خطة إنتاج"
+msgstr "خطة الإنتاج"
 
 msgid "Production Plan Already Submitted"
 msgstr "تم اعتماد خطة الإنتاج بالفعل"
@@ -37157,7 +37157,7 @@ msgid "Quality Inspection(s)"
 msgstr "فحوصات الجودة"
 
 msgid "Quality Inspections"
-msgstr "فحوصات الجودة"
+msgstr "فحوص الجودة"
 
 msgid "Quality Procedure"
 msgstr "إجراء الجودة"
@@ -38813,7 +38813,7 @@ msgid "Report Builder"
 msgstr "منشئ التقارير"
 
 msgid "Report Date"
-msgstr "تاريخ التقرير"
+msgstr "تاريخ البلاغ"
 
 msgid "Report Document Error"
 msgstr "خطأ في مستند التقرير"
@@ -40820,7 +40820,7 @@ msgid "Row {0}: Delivery Warehouse cannot be same as Customer Warehouse for Item
 msgstr "الصف {0}: لا يمكن أن يكون مستودع التسليم هو نفسه مستودع العميل للصنف {1}."
 
 msgid "Row {0}: Either Delivery Note Item or Packed Item reference is mandatory."
-msgstr "الصف {0}: مرجع بند إشعار التسليم أو الصنف المعبأ إلزامي."
+msgstr "الصف {0}: مرجع صنف إشعار التسليم أو الصنف المعبأ إلزامي."
 
 msgid "Row {0}: Exchange Rate is mandatory"
 msgstr "الصف {0}: سعر الصرف إلزامي"
@@ -40913,7 +40913,7 @@ msgid "Row {0}: Payment against Sales/Purchase Order should always be marked as 
 msgstr "الصف {0}: يجب دائمًا تحديد الدفعة مقابل أمر البيع/الشراء كدفعة مقدمة"
 
 msgid "Row {0}: Please provide a valid Delivery Note Item or Packed Item reference."
-msgstr "الصف {0}: يرجى تقديم مرجع صالح لبند إشعار التسليم أو الصنف المعبأ."
+msgstr "الصف {0}: يرجى تقديم مرجع صالح لصنف إشعار التسليم أو الصنف المعبأ."
 
 msgid "Row {0}: Please select a BOM for Item {1}."
 msgstr "الصف {0}: الرجاء تحديد قائمة مواد للصنف {1}."
@@ -41240,7 +41240,7 @@ msgid "SWATCHES"
 msgstr "المناديل"
 
 msgid "Safety Incident"
-msgstr "حادثة سلامة"
+msgstr "حادث سلامة"
 
 msgid "Safety Incidents & Observations"
 msgstr "حوادث وملاحظات السلامة"
@@ -43279,7 +43279,7 @@ msgid "Serialized items are valued at Moving Average once stock transactions exi
 msgstr "تُقيَّم الأصناف ذات الأرقام التسلسلية بالمتوسط المتحرك بمجرد وجود معاملات مخزون وتعطيل التقييم حسب الرقم التسلسلي."
 
 msgid "Series"
-msgstr "سلسلة الترقيم"
+msgstr "السلسلة"
 
 msgid "Series List for this Transaction"
 msgstr "قائمة السلاسل لهذه المعاملة"
@@ -45797,7 +45797,7 @@ msgid "Stock Consumption Details"
 msgstr "تفاصيل استهلاك المخزون"
 
 msgid "Stock Entries"
-msgstr "حركات المخزون"
+msgstr "قيود المخزون"
 
 msgid "Stock Entries already created for Work Order {0}: {1}"
 msgstr "تم إنشاء حركات المخزون بالفعل لأمر الإنتاج {0}: {1}"
@@ -45815,7 +45815,7 @@ msgid "Stock Entry Detail"
 msgstr "تفاصيل حركة المخزون"
 
 msgid "Stock Entry Item"
-msgstr "بند حركة المخزون"
+msgstr "صنف حركة المخزون"
 
 msgid "Stock Entry Type"
 msgstr "نوع حركة المخزون"
@@ -45917,7 +45917,7 @@ msgid "Stock Reconciliation Approval"
 msgstr "اعتماد تسويات الجرد"
 
 msgid "Stock Reconciliation Item"
-msgstr "بند تسوية المخزون"
+msgstr "صنف تسوية المخزون"
 
 msgid "Stock Reconciliations"
 msgstr "تسويات الجرد"
@@ -46292,7 +46292,7 @@ msgid "Subcontracting Receipt"
 msgstr "إشعار استلام التصنيع لدى الغير"
 
 msgid "Subcontracting Receipt Item"
-msgstr "بند إشعار استلام التصنيع لدى الغير"
+msgstr "صنف إشعار استلام التصنيع لدى الغير"
 
 msgid "Subcontracting Receipt Supplied Item"
 msgstr "صنف مورَّد في إشعار استلام التصنيع لدى الغير"
@@ -46680,7 +46680,7 @@ msgid "Supplier Delivery Note"
 msgstr "إشعار تسليم المورد"
 
 msgid "Supplier Group Item"
-msgstr "بند مجموعة الموردين"
+msgstr "صنف مجموعة الموردين"
 
 msgid "Supplier Invoice"
 msgstr "فاتورة المورد"
@@ -47486,7 +47486,7 @@ msgid "Territories"
 msgstr "اقليم"
 
 msgid "Territory Item"
-msgstr "بند المنطقة"
+msgstr "صنف المنطقة"
 
 msgid "Territory Manager"
 msgstr "مدير المنطقة"
@@ -47495,7 +47495,7 @@ msgid "Territory Name"
 msgstr "اسم المنطقة"
 
 msgid "Territory Target Variance Based On Item Group"
-msgstr "تباين أهداف المنطقة بناءً على مجموعة الأصناف"
+msgstr "تباين أهداف المناطق بناءً على مجموعة الأصناف"
 
 msgid "Territory Targets"
 msgstr "مستهدفات المنطقة"
@@ -50012,7 +50012,7 @@ msgid "Total Contribution Amount Against Orders: {0}"
 msgstr "إجمالي مبلغ المساهمة مقابل أوامر البيع: {0}"
 
 msgid "Total Cost"
-msgstr "التكلفة الإجمالية"
+msgstr "إجمالي التكلفة"
 
 msgid "Total Cost To Company (CTC)"
 msgstr "إجمالي التكلفة على الشركة"
@@ -50606,7 +50606,7 @@ msgid "Transaction Deletion Record Details"
 msgstr "تفاصيل سجل حذف المعاملات"
 
 msgid "Transaction Deletion Record Item"
-msgstr "بند سجل حذف المعاملات"
+msgstr "صنف سجل حذف المعاملات"
 
 msgid "Transaction Deletion Record To Delete"
 msgstr "سجل حذف المعاملات المراد حذفه"
@@ -52712,7 +52712,7 @@ msgid "Vehicle Periodic Inspection Expiry - 30 Days"
 msgstr "تنبيه انتهاء الفحص الدوري قبل 30 يوم"
 
 msgid "Vehicle Service Item"
-msgstr "بند خدمة المركبة"
+msgstr "صنف خدمة المركبة"
 
 msgid "Vehicle Type"
 msgstr "نوع المركبة"
@@ -54090,7 +54090,7 @@ msgid "Work Order {0}: Job Card not found for the operation {1}"
 msgstr "أمر الإنتاج {0}: لم يتم العثور على بطاقة عمل للعملية {1}"
 
 msgid "Work Orders"
-msgstr "أوامر إنتاج"
+msgstr "أوامر التشغيل"
 
 msgid "Work Orders Created: {0}"
 msgstr "أوامر الإنتاج التي تم إنشاؤها: {0}"
@@ -55756,7 +55756,7 @@ msgid "m"
 msgstr "د"
 
 msgid "material_request_item"
-msgstr "بند طلب المواد"
+msgstr "صنف طلب المواد"
 
 msgid "maximum"
 msgstr "أقصى"

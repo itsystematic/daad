@@ -7,48 +7,48 @@ Alert: {0} expires on {1},,optima_feed,تنبيه: {0} تنتهي في {1},تن�
 Analysis,,optima_feed,التحليل,التحليل,new
 Approval Status,,optima_feed,حالة الاعتماد,حالة الاعتماد,new
 Approval Workflows,,optima_feed,مسارات الاعتماد,مسارات الاعتماد,new
-Approve,,optima_feed,اعتماد,موافقة,conflict
-Approved,,optima_feed,معتمد,تمت الموافقة,conflict
+Approve,,optima_feed,اعتماد,اعتماد,feed_override
+Approved,,optima_feed,معتمد,معتمد,feed_override
 Asset / Equipment,,optima_feed,الأصل / المعدة,الأصل / المعدة,new
 Asset Repairs,,optima_feed,إصلاح الأصول,إصلاح الأصول,new
 Assets & Equipment,,optima_feed,الأصول والمعدات,الأصول والمعدات,new
 Assign to Technician,,optima_feed,إسناد للفني,إسناد للفني,new
 Assigned Technician,,optima_feed,الفني المسؤول,الفني المسؤول,new
-Assigned To,,optima_feed,المكلف بالتنفيذ,مُسند إلى,conflict
+Assigned To,,optima_feed,المكلف بالتنفيذ,المكلف بالتنفيذ,feed_override
 Awaiting Production,,optima_feed,بانتظار الإنتاج,بانتظار الإنتاج,new
 BOM Approval,,optima_feed,اعتماد التركيبات (قوائم المواد),اعتماد التركيبات (قوائم المواد),new
 Bagged Transport,,optima_feed,نقل أكياس,نقل أكياس,new
 Batch Tracking,,optima_feed,تتبع التشغيلات,تتبع التشغيلات,new
 Batches,,optima_feed,التشغيلات,التشغيلات,new
 Branches,,optima_feed,الفروع,الفروع,new
-Breakdown,,optima_feed,عطل طارئ,عطل,conflict
+Breakdown,,optima_feed,عطل طارئ,عطل طارئ,feed_override
 Budget vs Actual,,optima_feed,الموازنة مقابل الفعلي,الموازنة مقابل الفعلي,new
-Budgets,,optima_feed,الموازنات,الميزانيات التقديرية,conflict
+Budgets,,optima_feed,الموازنات,الموازنات,feed_override
 Building & Facilities,,optima_feed,مبنى ومرافق,مبنى ومرافق,new
 Building & Facility Maintenance,,optima_feed,صيانة مباني ومرافق,صيانة مباني ومرافق,new
 Bulker,,optima_feed,بلكر (سائب),بلكر (سائب),new
-Cancelled,,optima_feed,ملغي,ملغى,conflict
+Cancelled,,optima_feed,ملغي,ملغي,feed_override
 Capacity (Tons),,optima_feed,الحمولة (طن),الحمولة (طن),new
 Category,,optima_feed,الفئة,الفئة,new
 Chamber of Commerce Membership,,optima_feed,عضوية الغرفة التجارية,عضوية الغرفة التجارية,new
 Civil Defence Certificate,,optima_feed,شهادة الدفاع المدني,شهادة الدفاع المدني,new
 Cleaning,,optima_feed,نظافة,نظافة,new
-Closing Date,,optima_feed,تاريخ الإغلاق,تاريخ الإقفال,conflict
+Closing Date,,optima_feed,تاريخ الإغلاق,تاريخ الإغلاق,feed_override
 Commercial Registration,,optima_feed,السجل التجاري,السجل التجاري,new
 Corrective,,optima_feed,صيانة تصحيحية,صيانة تصحيحية,new
 Corrective Actions,,optima_feed,الإجراءات التصحيحية,الإجراءات التصحيحية,new
 Corrective and Preventive Action,,optima_feed,الإجراء التصحيحي والوقائي,الإجراء التصحيحي والوقائي,new
 Cost,,optima_feed,التكلفة,التكلفة,same
-Cost Center,,optima_feed,مركز التكلفة,مركز تكلفة,conflict
+Cost Center,,optima_feed,مركز التكلفة,مركز التكلفة,feed_override
 Cost per km (SAR),,optima_feed,تكلفة الكيلو (ريال),تكلفة الكيلو (ريال),new
 Costs,,optima_feed,التكاليف,التكاليف,new
 Credit Limit Exception Request,,optima_feed,طلب استثناء حد الائتمان,طلب استثناء حد الائتمان,new
 Customer Complaints,,optima_feed,شكاوى العملاء,شكاوى العملاء,new
 Customer Truck,,optima_feed,شاحنة العميل,شاحنة العميل,new
-Customers,,optima_feed,العملاء,عملاء,conflict
+Customers,,optima_feed,العملاء,العملاء,feed_override
 Date,,optima_feed,التاريخ,التاريخ,new
 Days Lost to Injury,,optima_feed,أيام الغياب بسبب الإصابة,أيام الغياب بسبب الإصابة,new
-Delivery Notes,,optima_feed,أذون التسليم,إشعارات التسليم,conflict
+Delivery Notes,,optima_feed,أذون التسليم,أذون التسليم,feed_override
 Delivery Trips,,optima_feed,رحلات التوصيل,رحلات التوصيل,new
 Department,,optima_feed,الإدارة,الإدارة,new
 Description,,optima_feed,الوصف,الوصف,new
@@ -56,7 +56,7 @@ Details,,optima_feed,التفاصيل,التفاصيل,new
 Difference from Document Qty (kg),,optima_feed,الفرق عن كمية المستند (كجم),الفرق عن كمية المستند (كجم),new
 Document Copy,,optima_feed,صورة الوثيقة,صورة الوثيقة,new
 Document No.,,optima_feed,رقم الوثيقة,رقم الوثيقة,new
-Document Type,,optima_feed,نوع الوثيقة,نوع المستند,conflict
+Document Type,,optima_feed,نوع الوثيقة,نوع الوثيقة,feed_override
 Document {0} ({1}) expires on {2}. Please start the renewal.,,optima_feed,الوثيقة {0} ({1}) تنتهي بتاريخ {2}. يرجى البدء في التجديد.,الوثيقة {0} ({1}) تنتهي بتاريخ {2}. يرجى البدء في التجديد.,new
 Documented Procedures,,optima_feed,الإجراءات الموثقة,الإجراءات الموثقة,new
 Downtime End,,optima_feed,نهاية التوقف,نهاية التوقف,new
@@ -67,16 +67,16 @@ Driver Iqama / ID No.,,optima_feed,رقم إقامة / هوية السائق,ر�
 Driver Mobile,,optima_feed,جوال السائق,جوال السائق,new
 "Driver, vehicle, truck plate and registration time on Delivery Note, Purchase Receipt and Stock Entry.",,optima_feed,السائق والمركبة ولوحة الشاحنة ووقت التسجيل على مستندات التسليم والاستلام والحركة.,السائق والمركبة ولوحة الشاحنة ووقت التسجيل على مستندات التسليم والاستلام والحركة.,new
 Drivers,,optima_feed,السائقون,السائقون,new
-Employee,,optima_feed,الموظف,موظف,conflict
+Employee,,optima_feed,الموظف,الموظف,feed_override
 Employee Involved,,optima_feed,الموظف المعني,الموظف المعني,new
-Enabled,,optima_feed,مفعل,مفعّل,conflict
+Enabled,,optima_feed,مفعل,مفعل,feed_override
 Entered by the sales representative when the customer exceeds the credit limit; shown to the Sales Manager before approval.,,optima_feed,يكتبه المندوب عند تجاوز العميل لحد الائتمان، ويظهر لمدير المبيعات قبل الاعتماد,يكتبه المندوب عند تجاوز العميل لحد الائتمان، ويظهر لمدير المبيعات قبل الاعتماد,new
 Equipment Name,,optima_feed,اسم المعدة,اسم المعدة,new
 Equipment Type,,optima_feed,نوع المعدة,نوع المعدة,new
 Exception Reason,,optima_feed,سبب طلب الاستثناء,سبب طلب الاستثناء,new
 Execution,,optima_feed,التنفيذ,التنفيذ,new
-Expired,,optima_feed,منتهي,منتهي الصلاحية,conflict
-Expiring Soon,,optima_feed,قارب على الانتهاء,تنتهي صلاحيته قريبًا,conflict
+Expired,,optima_feed,منتهي,منتهي,feed_override
+Expiring Soon,,optima_feed,قارب على الانتهاء,قارب على الانتهاء,feed_override
 Expiry Date,,optima_feed,تاريخ الانتهاء,تاريخ الانتهاء,new
 External Services Cost,,optima_feed,تكلفة خدمات خارجية,تكلفة خدمات خارجية,new
 Facility / Location,,optima_feed,المنشأة / الموقع,المنشأة / الموقع,new
@@ -91,20 +91,20 @@ Finance Manager,,optima_feed,المدير المالي,المدير المالي
 Fire,,optima_feed,حريق,حريق,new
 First Weight (kg),,optima_feed,الوزنة الأولى (كجم),الوزنة الأولى (كجم),new
 First Weight Time,,optima_feed,وقت الوزنة الأولى,وقت الوزنة الأولى,new
-Fixed Asset,,optima_feed,الأصل الثابت,أصل ثابت,conflict
+Fixed Asset,,optima_feed,الأصل الثابت,الأصل الثابت,feed_override
 Fleet Details,,optima_feed,بيانات الأسطول,بيانات الأسطول,new
 Fleet Supervisor,,optima_feed,مشرف الأسطول,مشرف الأسطول,new
 Fleet and Trip Cost,,optima_feed,الأسطول وتكلفة الرحلات,الأسطول وتكلفة الرحلات,new
 Formulas (BOMs),,optima_feed,التركيبات (قوائم المواد),التركيبات (قوائم المواد),new
 GOSI Certificate,,optima_feed,شهادة التأمينات الاجتماعية,شهادة التأمينات الاجتماعية,new
 GPS Device No.,,optima_feed,رقم جهاز التتبع,رقم جهاز التتبع,new
-Gate,,optima_feed,بوابة / خط تحميل,البوابة,conflict
+Gate,,optima_feed,بوابة / خط تحميل,بوابة / خط تحميل,feed_override
 Gate / Loading Bay Name,,optima_feed,اسم البوابة / خط التحميل,اسم البوابة / خط التحميل,new
 Gate Details,,optima_feed,بيانات البوابة,بيانات البوابة,new
 Gate Registration Time,,optima_feed,وقت التسجيل عند البوابة,وقت التسجيل عند البوابة,new
 Gates & Loading Bays,,optima_feed,البوابات وخطوط التحميل,البوابات وخطوط التحميل,new
 Generator,,optima_feed,مولد كهرباء,مولد كهرباء,new
-Government Document,,optima_feed,وثيقة نظامية,مستند حكومي,conflict
+Government Document,,optima_feed,وثيقة نظامية,وثيقة نظامية,feed_override
 Government Document Expiry - 60 Days,,optima_feed,تنبيه انتهاء وثيقة نظامية قبل 60 يوم,تنبيه انتهاء وثيقة نظامية قبل 60 يوم,new
 Government Documents,,optima_feed,الوثائق النظامية,الوثائق النظامية,new
 Government Documents Needing Renewal,,optima_feed,وثائق نظامية تحتاج تجديد,وثائق نظامية تحتاج تجديد,new
@@ -113,7 +113,7 @@ Government Permits & Follow-ups,,optima_feed,تصاريح ومراجعات حك�
 Gross Profit by Item,,optima_feed,مجمل الربح بالصنف,مجمل الربح بالصنف,new
 Guarantee Provided,,optima_feed,الضمان المقدم,الضمان المقدم,new
 Head Office,,optima_feed,الإدارة العامة,الإدارة العامة,new
-High,,optima_feed,عالية,مرتفع,conflict
+High,,optima_feed,عالية,عالية,feed_override
 Hired Truck,,optima_feed,شاحنة مستأجرة,شاحنة مستأجرة,new
 Hold / Rejection Reason,,optima_feed,سبب التعليق / الرفض,سبب التعليق / الرفض,new
 Hospitality & Meetings,,optima_feed,ضيافة واجتماعات,ضيافة واجتماعات,new
@@ -129,18 +129,18 @@ Inspection Templates,,optima_feed,قوالب الفحص,قوالب الفحص,ne
 Inventory Accountant,,optima_feed,محاسب المخزون,محاسب المخزون,new
 Investigation,,optima_feed,التحقيق,التحقيق,new
 Investigation Closed,,optima_feed,تم إغلاق التحقيق,تم إغلاق التحقيق,new
-Issue Date,,optima_feed,تاريخ الإصدار,تاريخ التذكرة,conflict
+Issue Date,,optima_feed,تاريخ الإصدار,تاريخ الإصدار,feed_override
 Issuing Authority,,optima_feed,جهة الإصدار,جهة الإصدار,new
 Istimara Expiry,,optima_feed,انتهاء الاستمارة,انتهاء الاستمارة,new
 Istimara of vehicle {0} expires on {1}.,,optima_feed,استمارة المركبة {0} تنتهي بتاريخ {1}.,استمارة المركبة {0} تنتهي بتاريخ {1}.,new
-Journal Entries,,optima_feed,القيود اليومية,قيود اليومية,conflict
+Journal Entries,,optima_feed,القيود اليومية,القيود اليومية,feed_override
 Key Reports,,optima_feed,تقارير أساسية,تقارير أساسية,new
 Labor Hours,,optima_feed,ساعات العمل,ساعات العمل,new
 Landed Costs,,optima_feed,تكاليف الاستيراد,تكاليف الاستيراد,new
 Last Calibration Date,,optima_feed,تاريخ آخر معايرة,تاريخ آخر معايرة,new
 Lease Contract,,optima_feed,عقد إيجار,عقد إيجار,new
 Loaded,,optima_feed,تم التحميل,تم التحميل,new
-Loading,,optima_feed,جاري التحميل,جارٍ التحميل,conflict
+Loading,,optima_feed,جاري التحميل,جاري التحميل,feed_override
 Loading Bay,,optima_feed,خط التحميل,خط التحميل,new
 Loading Status,,optima_feed,حالة التحميل,حالة التحميل,new
 Low,,optima_feed,منخفضة,منخفضة,new
@@ -156,7 +156,7 @@ Material Spill,,optima_feed,انسكاب مواد,انسكاب مواد,new
 Max Capacity (kg),,optima_feed,الحمولة القصوى (كجم),الحمولة القصوى (كجم),new
 Mechanical,,optima_feed,ميكانيكي,ميكانيكي,new
 Medium,,optima_feed,متوسطة,متوسطة,new
-Minor,,optima_feed,بسيطة,ثانوي,conflict
+Minor,,optima_feed,بسيطة,بسيطة,feed_override
 Moderate,,optima_feed,متوسطة,متوسطة,new
 Monthly Production (Tons),,optima_feed,الإنتاج الشهري (طن),الإنتاج الشهري (طن),new
 Monthly Purchases,,optima_feed,المشتريات الشهرية,المشتريات الشهرية,new
@@ -165,22 +165,22 @@ Municipality Licence,,optima_feed,رخصة البلدية,رخصة البلدي�
 Near Miss,,optima_feed,قرب وقوع حادث,قرب وقوع حادث,new
 Net Weight (kg),,optima_feed,الوزن الصافي (كجم),الوزن الصافي (كجم),new
 Nitaqat Certificate (Saudization),,optima_feed,شهادة نطاقات (السعودة),شهادة نطاقات (السعودة),new
-Non Conformance,,optima_feed,عدم المطابقة,عدم مطابقة,conflict
+Non Conformance,,optima_feed,عدم المطابقة,عدم المطابقة,feed_override
 None,,optima_feed,بدون,بدون,new
-Normal,,optima_feed,عادية,عادي,conflict
+Normal,,optima_feed,عادية,عادية,feed_override
 Occupational Health & Safety,,optima_feed,السلامة والصحة المهنية,السلامة والصحة المهنية,new
 Odometer & Fuel Log,,optima_feed,سجل العداد والوقود,سجل العداد والوقود,new
 Open Maintenance Requests,,optima_feed,طلبات صيانة مفتوحة,طلبات صيانة مفتوحة,new
 Open Service Requests,,optima_feed,طلبات خدمات مفتوحة,طلبات خدمات مفتوحة,new
 Operation Card Expiry,,optima_feed,انتهاء بطاقة التشغيل,انتهاء بطاقة التشغيل,new
 Operations & Warehouses,,optima_feed,التشغيل والمخازن,التشغيل والمخازن,new
-Opportunities,,optima_feed,الفرص البيعية,فرص البيع,conflict
+Opportunities,,optima_feed,الفرص البيعية,الفرص البيعية,feed_override
 Optima Feed,,optima_feed,أوبتيما فيد,أوبتيما فيد,new
 Optima Feed Settings,,optima_feed,إعدادات أوبتيما فيد,إعدادات أوبتيما فيد,new
 Optima Feed — Management Dashboard,,optima_feed,أوبتيما فيد — لوحة الإدارة,أوبتيما فيد — لوحة الإدارة,new
 Other,,optima_feed,أخرى,أخرى,new
 Outstanding Customer Receivables,,optima_feed,ديون العملاء المستحقة,ديون العملاء المستحقة,new
-Payment Entries,,optima_feed,سندات القبض والصرف,سندات الدفع,conflict
+Payment Entries,,optima_feed,سندات القبض والصرف,سندات القبض والصرف,feed_override
 Pending Assignment,,optima_feed,بانتظار الإسناد,بانتظار الإسناد,new
 Pending Finance Manager Approval,,optima_feed,بانتظار اعتماد المدير المالي,بانتظار اعتماد المدير المالي,new
 Pending Inventory Accountant Review,,optima_feed,بانتظار مراجعة محاسب المخزون,بانتظار مراجعة محاسب المخزون,new
@@ -192,12 +192,12 @@ People & Vehicle,,optima_feed,الأشخاص والمركبة,الأشخاص و�
 Periodic Inspection Expiry,,optima_feed,انتهاء الفحص الدوري,انتهاء الفحص الدوري,new
 Periodic inspection of vehicle {0} expires on {1}.,,optima_feed,الفحص الدوري للمركبة {0} ينتهي بتاريخ {1}.,الفحص الدوري للمركبة {0} ينتهي بتاريخ {1}.,new
 Preventive,,optima_feed,صيانة وقائية,صيانة وقائية,new
-Priority,,optima_feed,الأولوية,أولوية,conflict
+Priority,,optima_feed,الأولوية,الأولوية,feed_override
 Problem Type,,optima_feed,طبيعة المشكلة,طبيعة المشكلة,new
 Procurement Manager,,optima_feed,مدير المشتريات,مدير المشتريات,new
 Production & Formulas,,optima_feed,الإنتاج والتركيبات,الإنتاج والتركيبات,new
 Production Line,,optima_feed,خط إنتاج,خط إنتاج,new
-Production Plan,,optima_feed,خطة الإنتاج,خطة إنتاج,conflict
+Production Plan,,optima_feed,خطة الإنتاج,خطة الإنتاج,feed_override
 Production and Loading,,optima_feed,الإنتاج والتحميل,الإنتاج والتحميل,new
 Projects in Progress,,optima_feed,المشروعات تحت التنفيذ,المشروعات تحت التنفيذ,new
 Promissory Note,,optima_feed,سند لأمر,سند لأمر,new
@@ -208,7 +208,7 @@ Purchases This Year,,optima_feed,مشتريات هذا العام,مشتريات
 Purchasing & Imports,,optima_feed,المشتريات والاستيراد,المشتريات والاستيراد,new
 Quality Decision,,optima_feed,قرار الجودة,قرار الجودة,new
 Quality Decision on Receipt and Delivery,,optima_feed,قرار الجودة عند الاستلام والتسليم,قرار الجودة عند الاستلام والتسليم,new
-Quality Inspections,,optima_feed,فحوص الجودة,فحوصات الجودة,conflict
+Quality Inspections,,optima_feed,فحوص الجودة,فحوص الجودة,feed_override
 "Quality decision, security seals and rejection reason on Delivery Note and Purchase Receipt.",,optima_feed,قرار الجودة وأختام الأمان وسبب الرفض على التسليم والاستلام.,قرار الجودة وأختام الأمان وسبب الرفض على التسليم والاستلام.,new
 Read First Weight,,optima_feed,قراءة الوزنة الأولى,قراءة الوزنة الأولى,new
 Read Second Weight,,optima_feed,قراءة الوزنة الثانية,قراءة الوزنة الثانية,new
@@ -217,7 +217,7 @@ Receivables Aging,,optima_feed,أعمار ديون العملاء,أعمار د�
 Refrigeration & HVAC,,optima_feed,تبريد وتكييف,تبريد وتكييف,new
 Reject,,optima_feed,رفض,رفض,same
 Renewal Cost,,optima_feed,تكلفة التجديد,تكلفة التجديد,new
-Report Date,,optima_feed,تاريخ البلاغ,تاريخ التقرير,conflict
+Report Date,,optima_feed,تاريخ البلاغ,تاريخ البلاغ,feed_override
 Reported By,,optima_feed,المبلِّغ,المبلِّغ,new
 Reported to GOSI (Occupational Hazards),,optima_feed,تم الإبلاغ للتأمينات (أخطار مهنية),تم الإبلاغ للتأمينات (أخطار مهنية),new
 Reporter Name,,optima_feed,اسم المبلِّغ,اسم المبلِّغ,new
@@ -234,7 +234,7 @@ Road,,optima_feed,الطريق,الطريق,new
 Root Cause,,optima_feed,السبب الجذري,السبب الجذري,new
 Round Trip Distance (km),,optima_feed,المسافة ذهاب وعودة (كم),المسافة ذهاب وعودة (كم),new
 SFDA Licence,,optima_feed,ترخيص هيئة الغذاء والدواء,ترخيص هيئة الغذاء والدواء,new
-Safety Incident,,optima_feed,حادث سلامة,حادثة سلامة,conflict
+Safety Incident,,optima_feed,حادث سلامة,حادث سلامة,feed_override
 Safety Incidents & Observations,,optima_feed,حوادث وملاحظات السلامة,حوادث وملاحظات السلامة,new
 Safety Incidents This Year,,optima_feed,حوادث السلامة هذا العام,حوادث السلامة هذا العام,new
 Safety Observation,,optima_feed,ملاحظة سلامة,ملاحظة سلامة,new
@@ -257,7 +257,7 @@ Second Weight Time,,optima_feed,وقت الوزنة الثانية,وقت الو
 Sections,,optima_feed,الأقسام,الأقسام,new
 Security,,optima_feed,أمن وحراسة,أمن وحراسة,new
 Security Seal Numbers,,optima_feed,أرقام أختام الأمان,أرقام أختام الأمان,new
-Series,,optima_feed,السلسلة,سلسلة الترقيم,conflict
+Series,,optima_feed,السلسلة,السلسلة,feed_override
 Service Request,,optima_feed,طلب خدمة,طلب خدمة,same
 Service Requests,,optima_feed,طلبات الخدمات,طلبات الخدمات,new
 Service Vehicle,,optima_feed,سيارة خدمات,سيارة خدمات,new
@@ -271,7 +271,7 @@ Staff Housing,,optima_feed,سكن العمال,سكن العمال,new
 Staff Transport,,optima_feed,نقل الموظفين,نقل الموظفين,new
 Stationery & Supplies,,optima_feed,قرطاسية ومستلزمات,قرطاسية ومستلزمات,new
 Stock Balance,,optima_feed,أرصدة المخزون,أرصدة المخزون,new
-Stock Entries,,optima_feed,قيود المخزون,حركات المخزون,conflict
+Stock Entries,,optima_feed,قيود المخزون,قيود المخزون,feed_override
 Stock Reconciliation Approval,,optima_feed,اعتماد تسويات الجرد,اعتماد تسويات الجرد,new
 Stock Reconciliations,,optima_feed,تسويات الجرد,تسويات الجرد,new
 Stock vs Accounts Reconciliation,,optima_feed,مطابقة المخزون مع الحسابات,مطابقة المخزون مع الحسابات,new
@@ -283,7 +283,7 @@ Support Operations,,optima_feed,العمليات المساندة,العمليا
 Support Services,,optima_feed,الخدمات المساندة,الخدمات المساندة,new
 Support Services Officer,,optima_feed,مسؤول الخدمات المساندة,مسؤول الخدمات المساندة,new
 Technician Name,,optima_feed,اسم الفني,اسم الفني,new
-Total Cost,,optima_feed,إجمالي التكلفة,التكلفة الإجمالية,conflict
+Total Cost,,optima_feed,إجمالي التكلفة,إجمالي التكلفة,feed_override
 Traffic Accident,,optima_feed,حادث مروري,حادث مروري,new
 Transport,,optima_feed,النقل,النقل,new
 Transport & Fleet,,optima_feed,النقل والأسطول,النقل والأسطول,new
@@ -320,7 +320,7 @@ Weighbridge reading: {0} kg,,optima_feed,تمت قراءة الميزان: {0} �
 What Happened,,optima_feed,وصف ما حدث,وصف ما حدث,new
 Work Done,,optima_feed,ما تم تنفيذه,ما تم تنفيذه,new
 Work Injury,,optima_feed,إصابة عمل,إصابة عمل,new
-Work Orders,,optima_feed,أوامر التشغيل,أوامر إنتاج,conflict
+Work Orders,,optima_feed,أوامر التشغيل,أوامر التشغيل,feed_override
 Work Orders This Year,,optima_feed,أوامر تشغيل هذا العام,أوامر تشغيل هذا العام,new
 Zakat and Tax Certificate,,optima_feed,شهادة الزكاة والضريبة,شهادة الزكاة والضريبة,new
 {0} Filter Applied,,optima_feed,{0} عامل تصفية مطبق,{0} عامل تصفية مطبق,new
@@ -1777,7 +1777,7 @@ After Submission,,optima_feed,بعد الإرسال,بعد الإرسال,same
 After Submit,,optima_feed,بعد الاعتماد,بعد الاعتماد,same
 "After the adjustment, Item {0} in Warehouse {1} would hold a qty of {2} worth {3}, instead of {4} worth {5}.",,optima_feed,بعد التسوية، سيكون لدى الصنف {0} في المستودع {1} كمية {2} بقيمة {3}، بدلًا من {4} بقيمة {5}.,بعد التسوية، سيكون لدى الصنف {0} في المستودع {1} كمية {2} بقيمة {3}، بدلًا من {4} بقيمة {5}.,same
 Against Blanket Order,,optima_feed,مقابل أمر إطاري,مقابل أمر إطاري,same
-Against Delivery Note Item,,optima_feed,مقابل صنف إشعار التسليم,مقابل بند إشعار التسليم,conflict
+Against Delivery Note Item,,optima_feed,مقابل صنف إشعار التسليم,مقابل صنف إشعار التسليم,feed_override
 Against Docname,,optima_feed,مقابل اسم المستند,مقابل اسم المستند,same
 Against Doctype,,optima_feed,مقابل نوع المستند,مقابل نوع المستند,same
 Against Document Detail No,,optima_feed,مقابل رقم تفصيل المستند,مقابل رقم تفصيل المستند,same
@@ -1786,7 +1786,7 @@ Against Journal Entry {0} does not have any unmatched {1} entry,,optima_feed,ق�
 Against Journal Entry {0} is already adjusted against some other voucher,,optima_feed,قيد اليومية {0} المقابل مُسوّى بالفعل مقابل سند آخر,قيد اليومية {0} المقابل مُسوّى بالفعل مقابل سند آخر,same
 Against Pick List,,optima_feed,مقابل قائمة الانتقاء,مقابل قائمة الانتقاء,same
 Against Sales Order,,optima_feed,مقابل أمر بيع,مقابل أمر بيع,same
-Against Sales Order Item,,optima_feed,مقابل صنف أمر بيع,مقابل بند أمر بيع,conflict
+Against Sales Order Item,,optima_feed,مقابل صنف أمر بيع,مقابل صنف أمر بيع,feed_override
 Against Stock Entry,,optima_feed,مقابل حركة مخزون,مقابل حركة مخزون,same
 Against Voucher,,optima_feed,مقابل سند,مقابل سند,same
 Against Voucher No,,optima_feed,مقابل سند رقم,مقابل سند رقم,same
@@ -2222,11 +2222,11 @@ Apprentice,,optima_feed,متدرب,متدرب,same
 Approval,,optima_feed,موافقة,موافقة,same
 Approval Status must be 'Approved' or 'Rejected',,optima_feed,يجب أن تكون حالة الموافقة «موافق عليه» أو «مرفوض»,يجب أن تكون حالة الموافقة «موافق عليه» أو «مرفوض»,same
 Approval and funding for a work trip before it happens. See [Travel Request](https://docs.frappe.io/hr/travel-request).,,optima_feed,موافقة وتمويل رحلة عمل قبل حدوثها. راجع [طلب سفر](https://docs.frappe.io/hr/travel-request).,موافقة وتمويل رحلة عمل قبل حدوثها. راجع [طلب سفر](https://docs.frappe.io/hr/travel-request).,same
-Approve,,optima_feed,موافقة,موافقة,same
+Approve,,optima_feed,موافقة,اعتماد,conflict
 Approve a leave request,,optima_feed,الموافقة على طلب إجازة,الموافقة على طلب إجازة,same
 Approve an expense claim,,optima_feed,الموافقة على مطالبة مصروفات,الموافقة على مطالبة مصروفات,same
 Approve an expense claim and pay the employee back.,,optima_feed,وافق على مطالبة مصروفات وسدد للموظف ما أنفقه.,وافق على مطالبة مصروفات وسدد للموظف ما أنفقه.,same
-Approved,,optima_feed,تمت الموافقة,تمت الموافقة,same
+Approved,,optima_feed,تمت الموافقة,معتمد,conflict
 Approved Claims (This Month),,optima_feed,المطالبات المعتمدة (هذا الشهر),المطالبات المعتمدة (هذا الشهر),same
 Approved claims that have not been paid back yet.,,optima_feed,مطالبات تمت الموافقة عليها ولم تُسدد بعد.,مطالبات تمت الموافقة عليها ولم تُسدد بعد.,same
 Approver,,optima_feed,المخوَّل بالموافقة,المخوَّل بالموافقة,same
@@ -2289,9 +2289,9 @@ Assembly Items,,optima_feed,أصناف التجميع,أصناف التجميع,
 Asset,,optima_feed,أصل,أصل,same
 Asset Account,,optima_feed,حساب الأصل,حساب الأصل,same
 Asset Capitalization,,optima_feed,رسملة أصل,رسملة أصل,same
-Asset Capitalization Asset Item,,optima_feed,صنف الأصل في رسملة الأصل,بند الأصل في رسملة الأصل,conflict
-Asset Capitalization Service Item,,optima_feed,صنف الخدمة في رسملة الأصل,بند الخدمة في رسملة الأصل,conflict
-Asset Capitalization Stock Item,,optima_feed,صنف المخزون في رسملة الأصل,بند المخزون في رسملة الأصل,conflict
+Asset Capitalization Asset Item,,optima_feed,صنف الأصل في رسملة الأصل,صنف الأصل في رسملة الأصل,feed_override
+Asset Capitalization Service Item,,optima_feed,صنف الخدمة في رسملة الأصل,صنف الخدمة في رسملة الأصل,feed_override
+Asset Capitalization Stock Item,,optima_feed,صنف المخزون في رسملة الأصل,صنف المخزون في رسملة الأصل,feed_override
 Asset Category,,optima_feed,فئة الأصل,فئة الأصل,same
 Asset Category is mandatory for Fixed Asset item,,optima_feed,فئة الأصل إلزامية لصنف الأصل الثابت,فئة الأصل إلزامية لصنف الأصل الثابت,same
 Asset Depreciation Cost Center,,optima_feed,مركز تكلفة إهلاك الأصول,مركز تكلفة إهلاك الأصول,same
@@ -2313,7 +2313,7 @@ Asset Maintenance Report,,optima_feed,تقرير صيانة الأصول,تقر�
 Asset Maintenance Task,,optima_feed,مهمة صيانة الأصل,مهمة صيانة الأصل,same
 Asset Maintenance Team,,optima_feed,فريق صيانة الأصل,فريق صيانة الأصل,same
 Asset Movement,,optima_feed,حركة أصل,حركة أصل,same
-Asset Movement Item,,optima_feed,صنف حركة الأصل,بند حركة الأصل,conflict
+Asset Movement Item,,optima_feed,صنف حركة الأصل,صنف حركة الأصل,feed_override
 Asset Movement record {0} created,,optima_feed,تم إنشاء سجل حركة الأصل {0},تم إنشاء سجل حركة الأصل {0},same
 Asset Name,,optima_feed,اسم الأصل,اسم الأصل,same
 Asset Owner,,optima_feed,مالك الأصل,مالك الأصل,same
@@ -2385,7 +2385,7 @@ Assign to the user set in this field,,optima_feed,الإسناد إلى المس
 Assigned,,optima_feed,مُسنَد,مُسنَد,same
 Assigned By,,optima_feed,أُسند بواسطة,أُسند بواسطة,same
 Assigned By Full Name,,optima_feed,أُسند بواسطة (الاسم الكامل),أُسند بواسطة (الاسم الكامل),same
-Assigned To,,optima_feed,مُسند إلى,مُسند إلى,same
+Assigned To,,optima_feed,مُسند إلى,المكلف بالتنفيذ,conflict
 Assigned To/Owner,,optima_feed,المُسند إليه / المالك,المُسند إليه / المالك,same
 Assigned to {0},,optima_feed,معيّن إلى {0},معيّن إلى {0},same
 Assignee,,optima_feed,المُسنَد إليه,المُسنَد إليه,same
@@ -2962,7 +2962,7 @@ Breadcrumb,,optima_feed,مسار التنقل,مسار التنقل,same
 Breadcrumbs,,optima_feed,مسار التنقل,مسار التنقل,same
 Break a project into tasks and log the time your team spends.,,optima_feed,قسّم المشروع إلى مهام وسجّل الوقت الذي يقضيه فريقك.,قسّم المشروع إلى مهام وسجّل الوقت الذي يقضيه فريقك.,same
 Break it into tasks,,optima_feed,تقسيمه إلى مهام,تقسيمه إلى مهام,same
-Breakdown,,optima_feed,عطل,عطل,same
+Breakdown,,optima_feed,عطل,عطل طارئ,conflict
 Bring every entry back onto the dock.,,optima_feed,إعادة كل الإدخالات إلى شريط التطبيقات.,إعادة كل الإدخالات إلى شريط التطبيقات.,same
 Bring in a bank statement to match its lines against your books.,,optima_feed,استورد كشف حساب مصرفي لمطابقة سطوره مع دفاترك.,استورد كشف حساب مصرفي لمطابقة سطوره مع دفاترك.,same
 Bring in your chart of accounts from a spreadsheet.,,optima_feed,استورد دليل حساباتك من جدول بيانات.,استورد دليل حساباتك من جدول بيانات.,same
@@ -2986,7 +2986,7 @@ Budget Variance Report,,optima_feed,تقرير انحرافات الميزاني
 Budget cannot be assigned against Group Account {0},,optima_feed,لا يمكن تخصيص الميزانية التقديرية لحساب المجموعة {0},لا يمكن تخصيص الميزانية التقديرية لحساب المجموعة {0},same
 "Budget cannot be assigned against {0}, as its Root Type is not of Income or Expense",,optima_feed,لا يمكن تخصيص الميزانية التقديرية مقابل {0}، لأن نوع جذره ليس إيرادات أو مصروفات,لا يمكن تخصيص الميزانية التقديرية مقابل {0}، لأن نوع جذره ليس إيرادات أو مصروفات,same
 Budgeting,,optima_feed,الميزانيات التقديرية,الميزانيات التقديرية,same
-Budgets,,optima_feed,الميزانيات التقديرية,الميزانيات التقديرية,same
+Budgets,,optima_feed,الميزانيات التقديرية,الموازنات,conflict
 Buffer Time,,optima_feed,وقت احتياطي,وقت احتياطي,same
 Bufferpool Size,,optima_feed,حجم تجمع المخزن المؤقت,حجم تجمع المخزن المؤقت,same
 Build,,optima_feed,بناء,بناء,same
@@ -3087,7 +3087,7 @@ Calorie (Th),,optima_feed,سعرة حرارية (Th),سعرة حرارية (Th),
 Camera,,optima_feed,الكاميرا,الكاميرا,same
 Camera access needs a secure (HTTPS) connection and a browser with camera support.,,optima_feed,يتطلب الوصول إلى الكاميرا اتصالًا آمنًا (HTTPS) ومتصفحًا يدعم الكاميرا.,يتطلب الوصول إلى الكاميرا اتصالًا آمنًا (HTTPS) ومتصفحًا يدعم الكاميرا.,same
 Camera permission was denied. Allow camera access in your browser settings and try again.,,optima_feed,تم رفض إذن الكاميرا. يرجى السماح بالوصول إلى الكاميرا من إعدادات المتصفح ثم المحاولة مرة أخرى.,تم رفض إذن الكاميرا. يرجى السماح بالوصول إلى الكاميرا من إعدادات المتصفح ثم المحاولة مرة أخرى.,same
-Campaign Item,,optima_feed,صنف الحملة,بند الحملة,conflict
+Campaign Item,,optima_feed,صنف الحملة,صنف الحملة,feed_override
 Campaign Naming By,,optima_feed,تسمية الحملة بواسطة,تسمية الحملة بواسطة,same
 Campaign {0} not found,,optima_feed,الحملة {0} غير موجودة,الحملة {0} غير موجودة,same
 Can not close Work Order. Since {0} Job Cards are in Work In Progress state.,,optima_feed,لا يمكن إغلاق أمر الإنتاج لأن {0} من بطاقات عمل التشغيل في حالة «قيد التنفيذ».,لا يمكن إغلاق أمر الإنتاج لأن {0} من بطاقات عمل التشغيل في حالة «قيد التنفيذ».,same
@@ -3111,7 +3111,7 @@ Cancel Stock Ledger Entries,,optima_feed,إلغاء قيود سجل المخزو
 Cancel {0} documents?,,optima_feed,هل تريد إلغاء {0} مستندات؟,هل تريد إلغاء {0} مستندات؟,same
 Cancel {0} documents?,Title of confirmation dialog,optima_feed,إلغاء {0} مستند؟,إلغاء {0} مستند؟,same
 Cancellation Queued,,optima_feed,الإلغاء في قائمة الانتظار,الإلغاء في قائمة الانتظار,same
-Cancelled,,optima_feed,ملغى,ملغى,same
+Cancelled,,optima_feed,ملغى,ملغي,conflict
 Cancelled Document restored as Draft,,optima_feed,تمت استعادة المستند الملغى كمسودة,تمت استعادة المستند الملغى كمسودة,same
 Cancelled Job Card cannot be processed.,,optima_feed,لا يمكن معالجة بطاقة عمل التشغيل الملغاة.,لا يمكن معالجة بطاقة عمل التشغيل الملغاة.,same
 Cancelling,,optima_feed,جارٍ الإلغاء,جارٍ الإلغاء,same
@@ -3514,7 +3514,7 @@ Closing Amount,,optima_feed,مبلغ الإقفال,مبلغ الإقفال,same
 Closing Balance as of {},Do MMMM YYYY,optima_feed,الرصيد الختامي كما في {},الرصيد الختامي كما في {},same
 Closing Balance as per Bank Statement,,optima_feed,الرصيد الختامي حسب كشف الحساب المصرفي,الرصيد الختامي حسب كشف الحساب المصرفي,same
 Closing Balance as per ERP,,optima_feed,الرصيد الختامي حسب النظام,الرصيد الختامي حسب النظام,same
-Closing Date,,optima_feed,تاريخ الإقفال,تاريخ الإقفال,same
+Closing Date,,optima_feed,تاريخ الإقفال,تاريخ الإغلاق,conflict
 Closing This Month,,optima_feed,الإقفال هذا الشهر,الإقفال هذا الشهر,same
 Closing [Opening + Total] ,,optima_feed,الختامي [الافتتاحي + الإجمالي],الختامي [الافتتاحي + الإجمالي],same
 Closing balance as per system,,optima_feed,الرصيد الختامي حسب النظام,الرصيد الختامي حسب النظام,same
@@ -3804,7 +3804,7 @@ Cost,,optima_feed,التكلفة,التكلفة,same
 Cost Allocation,,optima_feed,توزيع التكلفة,توزيع التكلفة,same
 Cost Allocation %,,optima_feed,توزيع التكلفة %,توزيع التكلفة %,same
 Cost Allocation / Process Loss,,optima_feed,توزيع التكلفة / فاقد العملية الإنتاجية,توزيع التكلفة / فاقد العملية الإنتاجية,same
-Cost Center,,optima_feed,مركز تكلفة,مركز تكلفة,same
+Cost Center,,optima_feed,مركز تكلفة,مركز التكلفة,conflict
 Cost Center Allocation Percentage,,optima_feed,نسبة توزيع مركز التكلفة,نسبة توزيع مركز التكلفة,same
 Cost Center Name,,optima_feed,اسم مركز التكلفة,اسم مركز التكلفة,same
 Cost Center Validation Error,,optima_feed,خطأ في التحقق من مركز التكلفة,خطأ في التحقق من مركز التكلفة,same
@@ -4203,7 +4203,7 @@ Customer Contact Email,,optima_feed,البريد الإلكتروني لجهة �
 Customer Credit Balance,,optima_feed,الرصيد الدائن للعميل,الرصيد الدائن للعميل,same
 Customer Defaults,,optima_feed,القيم الافتراضية للعميل,القيم الافتراضية للعميل,same
 Customer Group,,optima_feed,مجموعة عملاء,مجموعة عملاء,same
-Customer Group Item,,optima_feed,صنف مجموعة العملاء,بند مجموعة العملاء,conflict
+Customer Group Item,,optima_feed,صنف مجموعة العملاء,صنف مجموعة العملاء,feed_override
 Customer Group Name,,optima_feed,اسم مجموعة العملاء,اسم مجموعة العملاء,same
 Customer Groups,,optima_feed,مجموعات عملاء,مجموعات عملاء,same
 Customer Item,,optima_feed,صنف العميل,صنف العميل,same
@@ -4231,7 +4231,7 @@ Customer's Purchase Order No,,optima_feed,رقم أمر شراء العميل,ر
 Customer-wise Item Price,,optima_feed,سعر الصنف حسب العميل,سعر الصنف حسب العميل,same
 Customer/Lead Name,,optima_feed,اسم العميل/العميل المحتمل,اسم العميل/العميل المحتمل,same
 Customer: ,,optima_feed,العميل:,العميل:,same
-Customers,,optima_feed,عملاء,عملاء,same
+Customers,,optima_feed,عملاء,العملاء,conflict
 Customers Without Any Sales Transactions,,optima_feed,عملاء بلا أي معاملات مبيعات,عملاء بلا أي معاملات مبيعات,same
 Customerwise Discount,,optima_feed,الخصم حسب العميل,الخصم حسب العميل,same
 Customization,,optima_feed,تخصيص,تخصيص,same
@@ -4512,9 +4512,9 @@ Delivery Note,,optima_feed,إشعار تسليم,إشعار تسليم,same
 Delivery Note Item,,optima_feed,صنف إشعار التسليم,صنف إشعار التسليم,same
 Delivery Note Trends,,optima_feed,اتجاهات إشعارات التسليم,اتجاهات إشعارات التسليم,same
 Delivery Note {0} is not submitted,,optima_feed,لم يُعتمد إشعار التسليم {0},لم يُعتمد إشعار التسليم {0},same
-Delivery Notes,,optima_feed,إشعارات التسليم,إشعارات التسليم,same
+Delivery Notes,,optima_feed,إشعارات التسليم,أذون التسليم,conflict
 Delivery Notes should not be in draft state when submitting a Delivery Trip. The following Delivery Notes are still in draft state: {0}. Please submit them first.,,optima_feed,يجب ألا تكون إشعارات التسليم في حالة مسودة عند اعتماد رحلة التسليم. إشعارات التسليم التالية لا تزال في حالة مسودة: {0}. يرجى اعتمادها أولاً.,يجب ألا تكون إشعارات التسليم في حالة مسودة عند اعتماد رحلة التسليم. إشعارات التسليم التالية لا تزال في حالة مسودة: {0}. يرجى اعتمادها أولاً.,same
-Delivery Schedule Item,,optima_feed,صنف جدول التسليم,بند جدول التسليم,conflict
+Delivery Schedule Item,,optima_feed,صنف جدول التسليم,صنف جدول التسليم,feed_override
 Delivery Stops,,optima_feed,توقفات التسليم,توقفات التسليم,same
 Delivery To Date,,optima_feed,تاريخ التسليم إلى,تاريخ التسليم إلى,same
 Delivery Trends,,optima_feed,اتجاهات التسليم,اتجاهات التسليم,same
@@ -4750,7 +4750,7 @@ Document Share Key,,optima_feed,مفتاح مشاركة المستند,مفتا�
 Document Share Report,,optima_feed,تقرير مشاركة المستند,تقرير مشاركة المستند,same
 Document States,,optima_feed,حالات المستند,حالات المستند,same
 Document Tag,,optima_feed,وسم المستند,وسم المستند,same
-Document Type,,optima_feed,نوع المستند,نوع المستند,same
+Document Type,,optima_feed,نوع المستند,نوع الوثيقة,conflict
 Document Type ,,optima_feed,نوع المستند,نوع المستند,same
 Document Type already used as a dimension,,optima_feed,نوع المستند مستخدم بالفعل كبُعد,نوع المستند مستخدم بالفعل كبُعد,same
 Document Type and Function are required to create a number card,,optima_feed,يلزم تحديد نوع المستند والدالة لإنشاء بطاقة رقمية,يلزم تحديد نوع المستند والدالة لإنشاء بطاقة رقمية,same
@@ -4927,7 +4927,7 @@ Edit Cart,,optima_feed,تعديل السلة,تعديل السلة,same
 Edit Custom HTML,,optima_feed,تعديل HTML مخصص,تعديل HTML مخصص,same
 Edit DocType,,optima_feed,تعديل نوع المستند,تعديل نوع المستند,same
 Edit DocType,Button in list view menu,optima_feed,تعديل نوع المستند,تعديل نوع المستند,same
-Edit Expense Item,,optima_feed,تعديل صنف المصروفات,تعديل بند المصروفات,conflict
+Edit Expense Item,,optima_feed,تعديل صنف المصروفات,تعديل صنف المصروفات,feed_override
 Edit Expense Tax,,optima_feed,تعديل ضريبة المصروفات,تعديل ضريبة المصروفات,same
 Edit Filter,,optima_feed,تعديل عامل التصفية,تعديل عامل التصفية,same
 Edit Filters,,optima_feed,تعديل عوامل التصفية,تعديل عوامل التصفية,same
@@ -5029,7 +5029,7 @@ Emails salary slip to employee based on preferred email selected in Employee,,op
 Emails will be sent with next possible workflow actions,,optima_feed,سيتم إرسال رسائل البريد الإلكتروني مع إجراءات سير العمل التالية الممكنة,سيتم إرسال رسائل البريد الإلكتروني مع إجراءات سير العمل التالية الممكنة,same
 Emergency Contact,,optima_feed,جهة الاتصال في حالات الطوارئ,جهة الاتصال في حالات الطوارئ,same
 Emergency Contact Name,,optima_feed,اسم جهة الاتصال في حالات الطوارئ,اسم جهة الاتصال في حالات الطوارئ,same
-Employee,,optima_feed,موظف,موظف,same
+Employee,,optima_feed,موظف,الموظف,conflict
 Employee A/C Number,,optima_feed,رقم حساب الموظف,رقم حساب الموظف,same
 Employee Advance,,optima_feed,سلفة الموظف,سلفة الموظف,same
 Employee Advance Account,,optima_feed,حساب سلفة الموظف,حساب سلفة الموظف,same
@@ -5237,7 +5237,7 @@ Enable this to block transactions where the selling price is less than the purch
 Enable to make this supplier selectable as a transporter on Delivery Notes and Stock Entries,,optima_feed,فعّل هذا الخيار لإتاحة اختيار هذا المورد كناقل في إشعارات التسليم وحركات المخزون,فعّل هذا الخيار لإتاحة اختيار هذا المورد كناقل في إشعارات التسليم وحركات المخزون,same
 Enable to reserve a small sample from each batch for any analysis arising ahead,,optima_feed,فعّل هذا الخيار للاحتفاظ بعينة صغيرة من كل تشغيلة لأي تحليل لاحق,فعّل هذا الخيار للاحتفاظ بعينة صغيرة من كل تشغيلة لأي تحليل لاحق,same
 Enable tracking sales commissions,,optima_feed,تفعيل تتبع عمولات المبيعات,تفعيل تتبع عمولات المبيعات,same
-Enabled,,optima_feed,مفعّل,مفعّل,same
+Enabled,,optima_feed,مفعّل,مفعل,conflict
 Enabled Scheduler,,optima_feed,تم تفعيل المجدول,تم تفعيل المجدول,same
 Enabled email inbox for user {0},,optima_feed,تم تفعيل صندوق البريد الوارد للمستخدم {0},تم تفعيل صندوق البريد الوارد للمستخدم {0},same
 Enabled only for Employee Benefit components from Salary Structure Assignment,,optima_feed,مفعّل فقط لمكوّنات ميزات الموظف من تعيين هيكل الراتب,مفعّل فقط لمكوّنات ميزات الموظف من تعيين هيكل الراتب,same
@@ -5479,9 +5479,9 @@ Expense Claim {0} already exists for the Vehicle Log,,optima_feed,مطالبة �
 Expense Claims,,optima_feed,مطالبات المصروفات,مطالبات المصروفات,same
 Expense Claims (This Month),,optima_feed,مطالبات المصروفات (هذا الشهر),مطالبات المصروفات (هذا الشهر),same
 Expense Date,,optima_feed,تاريخ المصروف,تاريخ المصروف,same
-Expense Head,,optima_feed,صنف المصروف,بند المصروف,conflict
+Expense Head,,optima_feed,صنف المصروف,صنف المصروف,feed_override
 Expense Head Changed,,optima_feed,تم تغيير حساب المصروف,تم تغيير حساب المصروف,same
-Expense Item,,optima_feed,صنف مصروفات,بند مصروفات,conflict
+Expense Item,,optima_feed,صنف مصروفات,صنف مصروفات,feed_override
 Expense Tax,,optima_feed,ضريبة المصروفات,ضريبة المصروفات,same
 Expense Taxes and Charges,,optima_feed,ضرائب ورسوم المصروفات,ضرائب ورسوم المصروفات,same
 Expense Type,,optima_feed,نوع المصروف,نوع المصروف,same
@@ -5496,14 +5496,14 @@ Expire Allocation,,optima_feed,انتهاء صلاحية الرصيد,انتها
 Expire Carry Forwarded Leaves (Days),,optima_feed,انتهاء صلاحية الإجازات المرحّلة بعد (أيام),انتهاء صلاحية الإجازات المرحّلة بعد (أيام),same
 Expire Leaves,,optima_feed,انتهاء صلاحية الإجازات,انتهاء صلاحية الإجازات,same
 Expire Notification On,,optima_feed,انتهاء الإشعار في,انتهاء الإشعار في,same
-Expired,,optima_feed,منتهي الصلاحية,منتهي الصلاحية,same
+Expired,,optima_feed,منتهي الصلاحية,منتهي,conflict
 Expired Batches,,optima_feed,تشغيلات منتهية الصلاحية,تشغيلات منتهية الصلاحية,same
 Expired Leave(s),,optima_feed,الإجازات المنتهية,الإجازات المنتهية,same
 Expired Leaves,,optima_feed,الإجازات المنتهية,الإجازات المنتهية,same
 Expires,,optima_feed,تنتهي في,تنتهي في,same
 Expires At,,optima_feed,تاريخ انتهاء الصلاحية,تاريخ انتهاء الصلاحية,same
 Expires in a week or less,,optima_feed,تنتهي صلاحيته خلال أسبوع أو أقل,تنتهي صلاحيته خلال أسبوع أو أقل,same
-Expiring Soon,,optima_feed,تنتهي صلاحيته قريبًا,تنتهي صلاحيته قريبًا,same
+Expiring Soon,,optima_feed,تنتهي صلاحيته قريبًا,قارب على الانتهاء,conflict
 Expiring in 7 Days,,optima_feed,تنتهي صلاحيته خلال 7 أيام,تنتهي صلاحيته خلال 7 أيام,same
 Expiry (In Days),,optima_feed,الانتهاء (بالأيام),الانتهاء (بالأيام),same
 Expiry Date Mandatory,,optima_feed,تاريخ انتهاء الصلاحية إلزامي,تاريخ انتهاء الصلاحية إلزامي,same
@@ -5810,7 +5810,7 @@ Fix Differences,,optima_feed,تصحيح الفروقات,تصحيح الفروق
 Fix SABB Entry,,optima_feed,إصلاح حزمة التشغيلات والأرقام,إصلاح حزمة التشغيلات والأرقام,same
 Fix issues,,optima_feed,إصلاح المشكلات,إصلاح المشكلات,same
 Fix issues summary,,optima_feed,ملخص إصلاح المشكلات,ملخص إصلاح المشكلات,same
-Fixed Asset,,optima_feed,أصل ثابت,أصل ثابت,same
+Fixed Asset,,optima_feed,أصل ثابت,الأصل الثابت,conflict
 Fixed Asset Account,,optima_feed,حساب الأصل الثابت,حساب الأصل الثابت,same
 Fixed Asset Defaults,,optima_feed,القيم الافتراضية للأصول الثابتة,القيم الافتراضية للأصول الثابتة,same
 Fixed Asset Item must be a non-stock item.,,optima_feed,يجب أن يكون صنف الأصل الثابت صنفًا غير مخزني.,يجب أن يكون صنف الأصل الثابت صنفًا غير مخزني.,same
@@ -6062,7 +6062,7 @@ Gain/Loss Account on Asset Disposal,,optima_feed,حساب الربح / الخس�
 Gantt,,optima_feed,مخطط جانت,مخطط جانت,same
 Gantt View Mode,,optima_feed,وضع عرض جانت,وضع عرض جانت,same
 Gap,,optima_feed,المسافة,المسافة,same
-Gate,,optima_feed,البوابة,البوابة,same
+Gate,,optima_feed,البوابة,بوابة / خط تحميل,conflict
 Gender,,optima_feed,الجنس,الجنس,same
 Gender Diversity Ratio,,optima_feed,نسبة التنوع بين الجنسين,نسبة التنوع بين الجنسين,same
 Genderqueer,,optima_feed,متنوع الهوية الجنسية,متنوع الهوية الجنسية,same
@@ -6232,7 +6232,7 @@ Google Sheet,,optima_feed,جدول بيانات Google,جدول بيانات Goo
 Google Sheet URL,,optima_feed,رابط جدول Google,رابط جدول Google,same
 Google Sheets URL is invalid or not publicly accessible.,,optima_feed,رابط Google Sheets غير صالح أو لا يمكن الوصول إليه بشكل عام.,رابط Google Sheets غير صالح أو لا يمكن الوصول إليه بشكل عام.,same
 "Google Sheets URL must end with ""gid={number}"". Copy and paste the URL from the browser address bar and try again.",,optima_feed,يجب أن ينتهي رابط Google Sheets بـ «gid={number}». انسخ الرابط من شريط عنوان المتصفح والصقه ثم حاول مرة أخرى.,يجب أن ينتهي رابط Google Sheets بـ «gid={number}». انسخ الرابط من شريط عنوان المتصفح والصقه ثم حاول مرة أخرى.,same
-Government Document,,optima_feed,مستند حكومي,مستند حكومي,same
+Government Document,,optima_feed,مستند حكومي,وثيقة نظامية,conflict
 Grade,,optima_feed,الدرجة الوظيفية,الدرجة الوظيفية,same
 Graduate,,optima_feed,خريج,خريج,same
 Grain,,optima_feed,حبة,حبة,same
@@ -6395,7 +6395,7 @@ Hide descendant records of <b>For Value</b>.,,optima_feed,إخفاء السجل�
 Hide footer signup,,optima_feed,إخفاء التسجيل في التذييل,إخفاء التسجيل في التذييل,same
 "Hide this item. Explicit rather than implied by the row's presence, which is what lets a user's `hidden: 0` un-hide something the site hid.",,optima_feed,إخفاء هذا الصنف. يُحدَّد صراحةً ولا يُستنتج من وجود الصف، وهذا ما يتيح لقيمة `hidden: 0` الخاصة بالمستخدم إعادة إظهار ما أخفاه الموقع.,إخفاء هذا الصنف. يُحدَّد صراحةً ولا يُستنتج من وجود الصف، وهذا ما يتيح لقيمة `hidden: 0` الخاصة بالمستخدم إعادة إظهار ما أخفاه الموقع.,same
 Hide timesheets,,optima_feed,إخفاء سجلات الوقت,إخفاء سجلات الوقت,same
-High,,optima_feed,مرتفع,مرتفع,same
+High,,optima_feed,مرتفع,عالية,conflict
 Hire your first employee,,optima_feed,تعيين أول موظف,تعيين أول موظف,same
 Hiring Count,,optima_feed,عدد التوظيفات,عدد التوظيفات,same
 Hiring Pipeline,,optima_feed,مسار التوظيف,مسار التوظيف,same
@@ -6831,7 +6831,7 @@ Incorrect Check in (group) Warehouse for Reorder,,optima_feed,مستودع (مج
 Incorrect Company,,optima_feed,شركة غير صحيحة,شركة غير صحيحة,same
 Incorrect Configuration,,optima_feed,إعداد غير صحيح,إعداد غير صحيح,same
 Incorrect Inventory Dimension,,optima_feed,بُعد مخزون غير صحيح,بُعد مخزون غير صحيح,same
-Incorrect Reference Document (Purchase Receipt Item),,optima_feed,مستند مرجعي غير صحيح (صنف إشعار استلام مشتريات),مستند مرجعي غير صحيح (بند إشعار استلام مشتريات),conflict
+Incorrect Reference Document (Purchase Receipt Item),,optima_feed,مستند مرجعي غير صحيح (صنف إشعار استلام مشتريات),مستند مرجعي غير صحيح (صنف إشعار استلام مشتريات),feed_override
 Incorrect Serial and Batch Bundle,,optima_feed,حزمة أرقام تسلسلية وتشغيلات غير صحيحة,حزمة أرقام تسلسلية وتشغيلات غير صحيحة,same
 Incorrect Stock Asset Account in {0},,optima_feed,حساب أصل المخزون غير صحيح في {0},حساب أصل المخزون غير صحيح في {0},same
 Incorrect URL,,optima_feed,رابط غير صحيح,رابط غير صحيح,same
@@ -7238,7 +7238,7 @@ Is this Tax included in Basic Rate?,,optima_feed,هذه الضريبة مدرج�
 Issue,,optima_feed,مشكلة,مشكلة,same
 Issue Analytics,,optima_feed,تحليلات التذاكر,تحليلات التذاكر,same
 Issue Credit Note,,optima_feed,إصدار إشعار دائن,إصدار إشعار دائن,same
-Issue Date,,optima_feed,تاريخ التذكرة,تاريخ التذكرة,same
+Issue Date,,optima_feed,تاريخ التذكرة,تاريخ الإصدار,conflict
 Issue Material,,optima_feed,صرف مواد,صرف مواد,same
 Issue Priority,,optima_feed,أولوية التذكرة,أولوية التذكرة,same
 Issue Split From,,optima_feed,تذكرة منفصلة عن,تذكرة منفصلة عن,same
@@ -7484,7 +7484,7 @@ Job is in {0} state and can't be cancelled,,optima_feed,المهمة في حال
 "Job profile, qualifications required etc.",,optima_feed,الملف الوظيفي، المؤهلات المطلوبة، إلخ.,الملف الوظيفي، المؤهلات المطلوبة، إلخ.,same
 Job was not running; status updated.,,optima_feed,لم تكن المهمة قيد التشغيل؛ تم تحديث الحالة.,لم تكن المهمة قيد التشغيل؛ تم تحديث الحالة.,same
 Join video conference with {0},,optima_feed,الانضمام إلى مؤتمر الفيديو عبر {0},الانضمام إلى مؤتمر الفيديو عبر {0},same
-Journal Entries,,optima_feed,قيود اليومية,قيود اليومية,same
+Journal Entries,,optima_feed,قيود اليومية,القيود اليومية,conflict
 Journal Entries {0} are un-linked,,optima_feed,قيود اليومية {0} غير مرتبطة,قيود اليومية {0} غير مرتبطة,same
 Journal Entry,,optima_feed,قيد يومية,قيد يومية,same
 Journal Entry Account,,optima_feed,حساب قيد اليومية,حساب قيد اليومية,same
@@ -7844,7 +7844,7 @@ Load More Communications,,optima_feed,تحميل المزيد من المراس�
 Load More Communications,Form timeline,optima_feed,تحميل المزيد من المراسلات,تحميل المزيد من المراسلات,same
 Load a document to see live status,,optima_feed,حمّل مستندًا لعرض الحالة المباشرة,حمّل مستندًا لعرض الحالة المباشرة,same
 Load the template from a file in a module instead of the Template field. Requires developer mode.,,optima_feed,تحميل القالب من ملف في وحدة بدلًا من حقل القالب. يتطلب وضع المطوّر.,تحميل القالب من ملف في وحدة بدلًا من حقل القالب. يتطلب وضع المطوّر.,same
-Loading,,optima_feed,جارٍ التحميل,جارٍ التحميل,same
+Loading,,optima_feed,جارٍ التحميل,جاري التحميل,conflict
 Loading error stats...,,optima_feed,جارٍ تحميل إحصاءات الأخطاء...,جارٍ تحميل إحصاءات الأخطاء...,same
 Loading full tree...,,optima_feed,جارٍ تحميل الشجرة كاملة...,جارٍ تحميل الشجرة كاملة...,same
 Loading groups…,,optima_feed,جارٍ تحميل المجموعات…,جارٍ تحميل المجموعات…,same
@@ -8221,7 +8221,7 @@ Minimum calendar days required since Date of Joining to apply for this leave,,op
 ",,optima_feed,يجب أن تكون الكمية الدنيا حسب وحدة قياس المخزون,يجب أن تكون الكمية الدنيا حسب وحدة قياس المخزون,same
 Minimum stock level to maintain as a buffer. Used to calculate recommended reorder level: Reorder Level = Safety Stock + (Average Daily Consumption × Lead Time).,,optima_feed,الحد الأدنى لمستوى المخزون المطلوب الاحتفاظ به كمخزون احتياطي. يُستخدم لحساب مستوى إعادة الطلب الموصى به: مستوى إعادة الطلب = المخزون الاحتياطي + (متوسط الاستهلاك اليومي × مهلة التوريد).,الحد الأدنى لمستوى المخزون المطلوب الاحتفاظ به كمخزون احتياطي. يُستخدم لحساب مستوى إعادة الطلب الموصى به: مستوى إعادة الطلب = المخزون الاحتياطي + (متوسط الاستهلاك اليومي × مهلة التوريد).,same
 Minimum working days required since Date of Joining to apply for this leave,,optima_feed,الحد الأدنى لأيام العمل المطلوبة منذ تاريخ الالتحاق للتقدم بطلب هذه الإجازة,الحد الأدنى لأيام العمل المطلوبة منذ تاريخ الالتحاق للتقدم بطلب هذه الإجازة,same
-Minor,,optima_feed,ثانوي,ثانوي,same
+Minor,,optima_feed,ثانوي,بسيطة,conflict
 Minutes,,optima_feed,المحضر,المحضر,same
 Minutes,Duration,optima_feed,بالدقائق,بالدقائق,same
 Minutes After,,optima_feed,دقائق بعد,دقائق بعد,same
@@ -8434,7 +8434,7 @@ New Customer Revenue,,optima_feed,إيرادات العملاء الجدد,إي�
 New Department,,optima_feed,قسم جديد,قسم جديد,same
 New Document Shared {0},,optima_feed,تمت مشاركة مستند جديد {0},تمت مشاركة مستند جديد {0},same
 New Employee ID,,optima_feed,رقم الموظف الجديد,رقم الموظف الجديد,same
-New Expense Item,,optima_feed,صنف مصروفات جديد,بند مصروفات جديد,conflict
+New Expense Item,,optima_feed,صنف مصروفات جديد,صنف مصروفات جديد,feed_override
 New Expense Tax,,optima_feed,ضريبة مصروفات جديدة,ضريبة مصروفات جديدة,same
 New Expenses,,optima_feed,مصروفات جديدة,مصروفات جديدة,same
 New Feedback,,optima_feed,ملاحظات جديدة,ملاحظات جديدة,same
@@ -8753,7 +8753,7 @@ No.,,optima_feed,رقم.,رقم.,same
 No.,Title of the 'row number' column,optima_feed,الرقم,الرقم,same
 No. of Rows,,optima_feed,عدد الصفوف,عدد الصفوف,same
 No. of parallel job cards which can be allowed on this workstation. Example: 2 would mean this workstation can process production for two Work Orders at a time.,,optima_feed,عدد بطاقات عمل التشغيل المتوازية المسموح بها على محطة العمل هذه. مثال: 2 يعني أن محطة العمل هذه يمكنها معالجة إنتاج أمرَي إنتاج في وقت واحد.,عدد بطاقات عمل التشغيل المتوازية المسموح بها على محطة العمل هذه. مثال: 2 يعني أن محطة العمل هذه يمكنها معالجة إنتاج أمرَي إنتاج في وقت واحد.,same
-Non Conformance,,optima_feed,عدم مطابقة,عدم مطابقة,same
+Non Conformance,,optima_feed,عدم مطابقة,عدم المطابقة,conflict
 Non Depreciable Category,,optima_feed,فئة غير قابلة للإهلاك,فئة غير قابلة للإهلاك,same
 Non Diary,,optima_feed,غير يومي,غير يومي,same
 Non Negative,,optima_feed,غير سالب,غير سالب,same
@@ -8767,7 +8767,7 @@ Non-Zeros,,optima_feed,غير الصفرية,غير الصفرية,same
 Non-phantom BOM cannot be created for non-stock item {0}.,,optima_feed,لا يمكن إنشاء قائمة مواد غير وهمية لصنف غير مخزني {0}.,لا يمكن إنشاء قائمة مواد غير وهمية لصنف غير مخزني {0}.,same
 None of the items have any change in quantity or value.,,optima_feed,لا يوجد أي صنف طرأ عليه تغيير في الكمية أو القيمة.,لا يوجد أي صنف طرأ عليه تغيير في الكمية أو القيمة.,same
 Noop Source,,optima_feed,مصدر Noop,مصدر Noop,same
-Normal,,optima_feed,عادي,عادي,same
+Normal,,optima_feed,عادي,عادية,conflict
 Normal Balances,,optima_feed,الأرصدة الطبيعية,الأرصدة الطبيعية,same
 Normalized Copies,,optima_feed,نسخ موحّدة,نسخ موحّدة,same
 Normalized Query,,optima_feed,استعلام موحّد,استعلام موحّد,same
@@ -9189,7 +9189,7 @@ Operator,,optima_feed,المشغل,المشغل,same
 Operator '{0}' requires a list value,,optima_feed,يتطلب المعامل «{0}» قيمة من نوع قائمة,يتطلب المعامل «{0}» قيمة من نوع قائمة,same
 Operator must be one of {0},,optima_feed,يجب أن يكون العامل أحد القيم التالية: {0},يجب أن يكون العامل أحد القيم التالية: {0},same
 Opp Count,,optima_feed,عدد الفرص,عدد الفرص,same
-Opportunities,,optima_feed,فرص البيع,فرص البيع,same
+Opportunities,,optima_feed,فرص البيع,الفرص البيعية,conflict
 Opportunities by Campaign,,optima_feed,الفرص حسب الحملة,الفرص حسب الحملة,same
 Opportunities by Medium,,optima_feed,الفرص حسب الوسيط,الفرص حسب الوسيط,same
 Opportunities via Campaigns,,optima_feed,الفرص عبر الحملات,الفرص عبر الحملات,same
@@ -9285,7 +9285,7 @@ Outward,,optima_feed,صادر,صادر,same
 Outward Order,,optima_feed,أمر صادر,أمر صادر,same
 Over Allocation,,optima_feed,تجاوز التخصيص,تجاوز التخصيص,same
 Over Billing Allowance (%),,optima_feed,نسبة السماح بالفوترة الزائدة (%),نسبة السماح بالفوترة الزائدة (%),same
-Over Billing Allowance exceeded for Purchase Receipt Item {0} ({1}) by {2}%,,optima_feed,تم تجاوز حد السماح بالفوترة الزائدة لصنف إشعار استلام المشتريات {0} ({1}) بنسبة {2}%,تم تجاوز حد السماح بالفوترة الزائدة لبند إشعار استلام المشتريات {0} ({1}) بنسبة {2}%,conflict
+Over Billing Allowance exceeded for Purchase Receipt Item {0} ({1}) by {2}%,,optima_feed,تم تجاوز حد السماح بالفوترة الزائدة لصنف إشعار استلام المشتريات {0} ({1}) بنسبة {2}%,تم تجاوز حد السماح بالفوترة الزائدة لصنف إشعار استلام المشتريات {0} ({1}) بنسبة {2}%,feed_override
 Over Delivery/Receipt Allowance (%),,optima_feed,نسبة السماح بالتسليم/الاستلام الزائد (%),نسبة السماح بالتسليم/الاستلام الزائد (%),same
 Over Order Allowance (%),,optima_feed,نسبة السماح بزيادة الطلب (%),نسبة السماح بزيادة الطلب (%),same
 Over Picking Allowance (%),,optima_feed,نسبة السماح بالانتقاء الزائد (%),نسبة السماح بالانتقاء الزائد (%),same
@@ -9582,7 +9582,7 @@ Payment Days Dependency,,optima_feed,الاعتماد على أيام الدفع
 Payment Days calculations are based on these Payroll Settings,,optima_feed,تعتمد احتسابات أيام الدفع على إعدادات الرواتب هذه,تعتمد احتسابات أيام الدفع على إعدادات الرواتب هذه,same
 Payment Details,,optima_feed,تفاصيل الدفع,تفاصيل الدفع,same
 Payment Document,,optima_feed,مستند الدفع,مستند الدفع,same
-Payment Entries,,optima_feed,سندات الدفع,سندات الدفع,same
+Payment Entries,,optima_feed,سندات الدفع,سندات القبض والصرف,conflict
 Payment Entries {0} are un-linked,,optima_feed,سندات الدفع {0} غير مرتبطة,سندات الدفع {0} غير مرتبطة,same
 Payment Entry,,optima_feed,سند دفع,سند دفع,same
 Payment Entry Created,,optima_feed,تم إنشاء قيد الدفع,تم إنشاء قيد الدفع,same
@@ -9634,7 +9634,7 @@ Payout Unclaimed Amount in Final Payroll Cycle,,optima_feed,صرف المبلغ 
 Payroll,,optima_feed,الرواتب,الرواتب,same
 Payroll Based On,,optima_feed,الرواتب بناءً على,الرواتب بناءً على,same
 Payroll Correction,,optima_feed,تصحيح الرواتب,تصحيح الرواتب,same
-Payroll Correction Child,,optima_feed,صنف تصحيح الرواتب,بند تصحيح الرواتب,conflict
+Payroll Correction Child,,optima_feed,صنف تصحيح الرواتب,صنف تصحيح الرواتب,feed_override
 Payroll Cost Center,,optima_feed,مركز تكلفة الرواتب,مركز تكلفة الرواتب,same
 Payroll Cost Centers,,optima_feed,مراكز تكلفة الرواتب,مراكز تكلفة الرواتب,same
 Payroll Dashboard,,optima_feed,لوحة الرواتب,لوحة الرواتب,same
@@ -10296,7 +10296,7 @@ Printer mapping not set.,,optima_feed,لم يتم ضبط ربط الطابعة.,
 Printing,,optima_feed,الطباعة,الطباعة,same
 Printing Details,,optima_feed,تفاصيل الطباعة,تفاصيل الطباعة,same
 Priorities,,optima_feed,الأولويات,الأولويات,same
-Priority,,optima_feed,أولوية,أولوية,same
+Priority,,optima_feed,أولوية,الأولوية,conflict
 Priority cannot be lesser than 1.,,optima_feed,لا يمكن أن تكون الأولوية أقل من 1.,لا يمكن أن تكون الأولوية أقل من 1.,same
 Private Equity,,optima_feed,الأسهم الخاصة,الأسهم الخاصة,same
 Private Files Backup:,,optima_feed,النسخة الاحتياطية للملفات الخاصة:,النسخة الاحتياطية للملفات الخاصة:,same
@@ -10355,7 +10355,7 @@ Product engineer. Writes the release notes nobody reads.,,optima_feed,مهندس
 Production Analytics,,optima_feed,تحليلات الإنتاج,تحليلات الإنتاج,same
 Production Item,,optima_feed,صنف الإنتاج,صنف الإنتاج,same
 Production Item Info,,optima_feed,معلومات صنف الإنتاج,معلومات صنف الإنتاج,same
-Production Plan,,optima_feed,خطة إنتاج,خطة إنتاج,same
+Production Plan,,optima_feed,خطة إنتاج,خطة الإنتاج,conflict
 Production Plan Already Submitted,,optima_feed,تم اعتماد خطة الإنتاج بالفعل,تم اعتماد خطة الإنتاج بالفعل,same
 Production Plan Item,,optima_feed,صنف خطة الإنتاج,صنف خطة الإنتاج,same
 Production Plan Item Reference,,optima_feed,مرجع أصناف خطة الإنتاج,مرجع أصناف خطة الإنتاج,same
@@ -10556,7 +10556,7 @@ Quality Inspection is required for the item {0} before completing the job card {
 Quality Inspection {0} is not submitted for the item: {1},,optima_feed,فحص الجودة {0} غير معتمد للصنف: {1},فحص الجودة {0} غير معتمد للصنف: {1},same
 Quality Inspection {0} is rejected for the item: {1},,optima_feed,فحص الجودة {0} مرفوض للصنف: {1},فحص الجودة {0} مرفوض للصنف: {1},same
 Quality Inspection(s),,optima_feed,فحوصات الجودة,فحوصات الجودة,same
-Quality Inspections,,optima_feed,فحوصات الجودة,فحوصات الجودة,same
+Quality Inspections,,optima_feed,فحوصات الجودة,فحوص الجودة,conflict
 Quality Procedure,,optima_feed,إجراء الجودة,إجراء الجودة,same
 Quality Procedure Process,,optima_feed,عملية إجراء الجودة,عملية إجراء الجودة,same
 Quality Reports,,optima_feed,تقارير الجودة,تقارير الجودة,same
@@ -10992,7 +10992,7 @@ Replicate Role,,optima_feed,نسخ الدور,نسخ الدور,same
 Replicating Role...,,optima_feed,جارٍ نسخ الدور...,جارٍ نسخ الدور...,same
 Replied,,optima_feed,تم الرد,تم الرد,same
 Report Builder,,optima_feed,منشئ التقارير,منشئ التقارير,same
-Report Date,,optima_feed,تاريخ التقرير,تاريخ التقرير,same
+Report Date,,optima_feed,تاريخ التقرير,تاريخ البلاغ,conflict
 Report Document Error,,optima_feed,خطأ في مستند التقرير,خطأ في مستند التقرير,same
 Report Filters,,optima_feed,عوامل تصفية التقرير,عوامل تصفية التقرير,same
 Report Information,,optima_feed,معلومات التقرير,معلومات التقرير,same
@@ -11542,7 +11542,7 @@ Row {0}: Currency of the BOM #{1} should be equal to the selected currency {2},,
 Row {0}: Debit entry can not be linked with a {1},,optima_feed,الصف {0}: لا يمكن ربط قيد مدين بـ {1},الصف {0}: لا يمكن ربط قيد مدين بـ {1},same
 Row {0}: Delivery Warehouse ({1}) and Customer Warehouse ({2}) can not be same,,optima_feed,الصف {0}: لا يمكن أن يتطابق مستودع التسليم ({1}) مع مستودع العميل ({2}),الصف {0}: لا يمكن أن يتطابق مستودع التسليم ({1}) مع مستودع العميل ({2}),same
 Row {0}: Delivery Warehouse cannot be same as Customer Warehouse for Item {1}.,,optima_feed,الصف {0}: لا يمكن أن يكون مستودع التسليم هو نفسه مستودع العميل للصنف {1}.,الصف {0}: لا يمكن أن يكون مستودع التسليم هو نفسه مستودع العميل للصنف {1}.,same
-Row {0}: Either Delivery Note Item or Packed Item reference is mandatory.,,optima_feed,الصف {0}: مرجع صنف إشعار التسليم أو الصنف المعبأ إلزامي.,الصف {0}: مرجع بند إشعار التسليم أو الصنف المعبأ إلزامي.,conflict
+Row {0}: Either Delivery Note Item or Packed Item reference is mandatory.,,optima_feed,الصف {0}: مرجع صنف إشعار التسليم أو الصنف المعبأ إلزامي.,الصف {0}: مرجع صنف إشعار التسليم أو الصنف المعبأ إلزامي.,feed_override
 Row {0}: Exchange Rate is mandatory,,optima_feed,الصف {0}: سعر الصرف إلزامي,الصف {0}: سعر الصرف إلزامي,same
 Row {0}: Expense Account {1} is linked to company {2}. Please select an account belonging to company {3}.,,optima_feed,الصف {0}: حساب المصروفات {1} مرتبط بالشركة {2}. يرجى اختيار حساب يتبع الشركة {3}.,الصف {0}: حساب المصروفات {1} مرتبط بالشركة {2}. يرجى اختيار حساب يتبع الشركة {3}.,same
 Row {0}: Expense Head changed to {1} as no Purchase Receipt is created against Item {2}.,,optima_feed,الصف {0}: تم تغيير حساب المصروفات إلى {1} لأنه لم يُنشأ إشعار استلام مشتريات للصنف {2}.,الصف {0}: تم تغيير حساب المصروفات إلى {1} لأنه لم يُنشأ إشعار استلام مشتريات للصنف {2}.,same
@@ -11572,7 +11572,7 @@ Row {0}: Party / Account does not match with {1} / {2} in {3} {4},,optima_feed,�
 Row {0}: Party Type and Party is required for Receivable / Payable account {1},,optima_feed,الصف {0}: نوع الطرف والطرف مطلوبان لحساب الذمم المدينة / الدائنة {1},الصف {0}: نوع الطرف والطرف مطلوبان لحساب الذمم المدينة / الدائنة {1},same
 Row {0}: Payment Term is mandatory,,optima_feed,الصف {0}: شرط الدفع إلزامي,الصف {0}: شرط الدفع إلزامي,same
 Row {0}: Payment against Sales/Purchase Order should always be marked as advance,,optima_feed,الصف {0}: يجب دائمًا تحديد الدفعة مقابل أمر البيع/الشراء كدفعة مقدمة,الصف {0}: يجب دائمًا تحديد الدفعة مقابل أمر البيع/الشراء كدفعة مقدمة,same
-Row {0}: Please provide a valid Delivery Note Item or Packed Item reference.,,optima_feed,الصف {0}: يرجى تقديم مرجع صالح لصنف إشعار التسليم أو الصنف المعبأ.,الصف {0}: يرجى تقديم مرجع صالح لبند إشعار التسليم أو الصنف المعبأ.,conflict
+Row {0}: Please provide a valid Delivery Note Item or Packed Item reference.,,optima_feed,الصف {0}: يرجى تقديم مرجع صالح لصنف إشعار التسليم أو الصنف المعبأ.,الصف {0}: يرجى تقديم مرجع صالح لصنف إشعار التسليم أو الصنف المعبأ.,feed_override
 Row {0}: Please select a BOM for Item {1}.,,optima_feed,الصف {0}: الرجاء تحديد قائمة مواد للصنف {1}.,الصف {0}: الرجاء تحديد قائمة مواد للصنف {1}.,same
 Row {0}: Please select an active BOM for Item {1}.,,optima_feed,الصف {0}: يرجى تحديد قائمة مواد نشطة للصنف {1}.,الصف {0}: يرجى تحديد قائمة مواد نشطة للصنف {1}.,same
 Row {0}: Please select an valid BOM for Item {1}.,,optima_feed,الصف {0}: يرجى تحديد قائمة مواد صالحة للصنف {1}.,الصف {0}: يرجى تحديد قائمة مواد صالحة للصنف {1}.,same
@@ -11663,7 +11663,7 @@ SMS Settings,,optima_feed,إعدادات الرسائل النصية,إعداد�
 SO Qty,,optima_feed,كمية أوامر البيع,كمية أوامر البيع,same
 SO Total Qty,,optima_feed,إجمالي كمية أوامر البيع,إجمالي كمية أوامر البيع,same
 STATEMENT OF ACCOUNTS,,optima_feed,كشف حساب,كشف حساب,same
-Safety Incident,,optima_feed,حادثة سلامة,حادثة سلامة,same
+Safety Incident,,optima_feed,حادثة سلامة,حادث سلامة,conflict
 Safety Stock,,optima_feed,مخزون الأمان,مخزون الأمان,same
 Salary Component,,optima_feed,مكوّن الراتب,مكوّن الراتب,same
 Salary Component ,,optima_feed,مكوّن الراتب,مكوّن الراتب,same
@@ -12204,7 +12204,7 @@ Serial number {0} entered more than once,,optima_feed,تم إدخال الرقم
 Serial numbers unavailable for Item {0} under warehouse {1}. Please try changing warehouse.,,optima_feed,الأرقام التسلسلية غير متوفرة للصنف {0} في المستودع {1}. يرجى محاولة تغيير المستودع.,الأرقام التسلسلية غير متوفرة للصنف {0} في المستودع {1}. يرجى محاولة تغيير المستودع.,same
 Serialized,,optima_feed,مُسلسل,مُسلسل,same
 Serialized items are valued at Moving Average once stock transactions exist and Serial No Wise Valuation is disabled.,,optima_feed,تُقيَّم الأصناف ذات الأرقام التسلسلية بالمتوسط المتحرك بمجرد وجود معاملات مخزون وتعطيل التقييم حسب الرقم التسلسلي.,تُقيَّم الأصناف ذات الأرقام التسلسلية بالمتوسط المتحرك بمجرد وجود معاملات مخزون وتعطيل التقييم حسب الرقم التسلسلي.,same
-Series,,optima_feed,سلسلة الترقيم,سلسلة الترقيم,same
+Series,,optima_feed,سلسلة الترقيم,السلسلة,conflict
 Series List for this Transaction,,optima_feed,قائمة السلاسل لهذه المعاملة,قائمة السلاسل لهذه المعاملة,same
 Series added,,optima_feed,تمت إضافة السلسلة,تمت إضافة السلسلة,same
 Series already exists,,optima_feed,السلسلة موجودة بالفعل,السلسلة موجودة بالفعل,same
@@ -12936,13 +12936,13 @@ Stock Closing Entry {0} already exists for the selected date range,,optima_feed,
 Stock Closing Entry {0} belongs to a closed accounting period. Cancel the Period Closing Voucher {1} first.,,optima_feed,قيد إقفال المخزون {0} يتبع فترة محاسبية مغلقة. ألغِ سند إقفال الفترة {1} أولًا.,قيد إقفال المخزون {0} يتبع فترة محاسبية مغلقة. ألغِ سند إقفال الفترة {1} أولًا.,same
 "Stock Closing Entry {0} has been queued for processing, system will take sometime to complete it.",,optima_feed,أُضيف قيد إقفال المخزون {0} إلى قائمة المعالجة، وسيستغرق النظام بعض الوقت لإكماله.,أُضيف قيد إقفال المخزون {0} إلى قائمة المعالجة، وسيستغرق النظام بعض الوقت لإكماله.,same
 Stock Closing Log,,optima_feed,سجل إقفال المخزون,سجل إقفال المخزون,same
-Stock Entries,,optima_feed,حركات المخزون,حركات المخزون,same
+Stock Entries,,optima_feed,حركات المخزون,قيود المخزون,conflict
 Stock Entries already created for Work Order {0}: {1},,optima_feed,تم إنشاء حركات المخزون بالفعل لأمر الإنتاج {0}: {1},تم إنشاء حركات المخزون بالفعل لأمر الإنتاج {0}: {1},same
 Stock Entry,,optima_feed,حركة مخزون,حركة مخزون,same
 Stock Entry (Outward GIT),,optima_feed,حركة مخزون (بضاعة قيد النقل - صادر),حركة مخزون (بضاعة قيد النقل - صادر),same
 Stock Entry Child,,optima_feed,الجدول الفرعي لحركة المخزون,الجدول الفرعي لحركة المخزون,same
 Stock Entry Detail,,optima_feed,تفاصيل حركة المخزون,تفاصيل حركة المخزون,same
-Stock Entry Item,,optima_feed,صنف حركة المخزون,بند حركة المخزون,conflict
+Stock Entry Item,,optima_feed,صنف حركة المخزون,صنف حركة المخزون,feed_override
 Stock Entry Type,,optima_feed,نوع حركة المخزون,نوع حركة المخزون,same
 Stock Entry {0} created,,optima_feed,تم إنشاء حركة المخزون {0},تم إنشاء حركة المخزون {0},same
 Stock Entry {0} has created,,optima_feed,تم إنشاء حركة المخزون {0},تم إنشاء حركة المخزون {0},same
@@ -12973,7 +12973,7 @@ Stock Qty vs Batch Qty,,optima_feed,كمية المخزون مقابل كمية 
 Stock Qty vs Serial No Count,,optima_feed,كمية المخزون مقابل عدد الأرقام التسلسلية,كمية المخزون مقابل عدد الأرقام التسلسلية,same
 Stock Received But Not Billed,,optima_feed,مخزون مستلم غير مفوتر,مخزون مستلم غير مفوتر,same
 Stock Reconciliation,,optima_feed,تسوية المخزون,تسوية المخزون,same
-Stock Reconciliation Item,,optima_feed,صنف تسوية المخزون,بند تسوية المخزون,conflict
+Stock Reconciliation Item,,optima_feed,صنف تسوية المخزون,صنف تسوية المخزون,feed_override
 Stock Reports,,optima_feed,تقارير المخزون,تقارير المخزون,same
 Stock Reposting,,optima_feed,إعادة ترحيل المخزون,إعادة ترحيل المخزون,same
 Stock Reposting Settings,,optima_feed,إعدادات إعادة ترحيل المخزون,إعدادات إعادة ترحيل المخزون,same
@@ -13080,7 +13080,7 @@ Subcontracting Outward Order,,optima_feed,أمر صادر للتصنيع لدى 
 Subcontracting Outward Order Count,,optima_feed,عدد الأوامر الصادرة للتصنيع لدى الغير,عدد الأوامر الصادرة للتصنيع لدى الغير,same
 Subcontracting Purchase Order,,optima_feed,أمر شراء للتصنيع لدى الغير,أمر شراء للتصنيع لدى الغير,same
 Subcontracting Receipt,,optima_feed,إشعار استلام التصنيع لدى الغير,إشعار استلام التصنيع لدى الغير,same
-Subcontracting Receipt Item,,optima_feed,صنف إشعار استلام التصنيع لدى الغير,بند إشعار استلام التصنيع لدى الغير,conflict
+Subcontracting Receipt Item,,optima_feed,صنف إشعار استلام التصنيع لدى الغير,صنف إشعار استلام التصنيع لدى الغير,feed_override
 Subcontracting Receipt Supplied Item,,optima_feed,صنف مورَّد في إشعار استلام التصنيع لدى الغير,صنف مورَّد في إشعار استلام التصنيع لدى الغير,same
 Subcontracting Reports,,optima_feed,تقارير التصنيع لدى الغير,تقارير التصنيع لدى الغير,same
 Subcontracting Return,,optima_feed,مرتجع التصنيع لدى الغير,مرتجع التصنيع لدى الغير,same
@@ -13178,7 +13178,7 @@ Supplied Qty,,optima_feed,الكمية الموردة,الكمية المورد�
 Supplier,,optima_feed,مورد,مورد,same
 Supplier Defaults,,optima_feed,القيم الافتراضية للمورد,القيم الافتراضية للمورد,same
 Supplier Delivery Note,,optima_feed,إشعار تسليم المورد,إشعار تسليم المورد,same
-Supplier Group Item,,optima_feed,صنف مجموعة الموردين,بند مجموعة الموردين,conflict
+Supplier Group Item,,optima_feed,صنف مجموعة الموردين,صنف مجموعة الموردين,feed_override
 Supplier Invoice Date,,optima_feed,تاريخ فاتورة المورد,تاريخ فاتورة المورد,same
 Supplier Invoice No exists in Purchase Invoice {0},,optima_feed,رقم فاتورة المورد موجود في فاتورة المشتريات {0},رقم فاتورة المورد موجود في فاتورة المشتريات {0},same
 Supplier Item,,optima_feed,صنف المورد,صنف المورد,same
@@ -13376,10 +13376,10 @@ Temporarily on Hold,,optima_feed,معلّق مؤقتًا,معلّق مؤقتًا
 Tenure,,optima_feed,مدة الخدمة,مدة الخدمة,same
 Terms,,optima_feed,الشروط,الشروط,same
 Terms Template,,optima_feed,قالب الشروط,قالب الشروط,same
-Territory Item,,optima_feed,صنف المنطقة,بند المنطقة,conflict
+Territory Item,,optima_feed,صنف المنطقة,صنف المنطقة,feed_override
 Territory Manager,,optima_feed,مدير المنطقة,مدير المنطقة,same
 Territory Name,,optima_feed,اسم المنطقة,اسم المنطقة,same
-Territory Target Variance Based On Item Group,,optima_feed,تباين أهداف المناطق بناءً على مجموعة الأصناف,تباين أهداف المنطقة بناءً على مجموعة الأصناف,conflict
+Territory Target Variance Based On Item Group,,optima_feed,تباين أهداف المناطق بناءً على مجموعة الأصناف,تباين أهداف المناطق بناءً على مجموعة الأصناف,feed_override
 Territory Targets,,optima_feed,مستهدفات المنطقة,مستهدفات المنطقة,same
 Territory Wise Opportunity Count,,optima_feed,عدد الفرص حسب المنطقة,عدد الفرص حسب المنطقة,same
 Territory Wise Sales,,optima_feed,المبيعات حسب المنطقة,المبيعات حسب المنطقة,same
@@ -14080,7 +14080,7 @@ Total Commission,,optima_feed,إجمالي العمولة,إجمالي العم�
 Total Completed qty,,optima_feed,إجمالي الكمية المكتملة,إجمالي الكمية المكتملة,same
 Total Consumed Material Cost (via Stock Entry),,optima_feed,إجمالي تكلفة المواد المستهلكة (عبر حركة مخزون),إجمالي تكلفة المواد المستهلكة (عبر حركة مخزون),same
 Total Contribution Amount Against Orders: {0},,optima_feed,إجمالي مبلغ المساهمة مقابل أوامر البيع: {0},إجمالي مبلغ المساهمة مقابل أوامر البيع: {0},same
-Total Cost,,optima_feed,التكلفة الإجمالية,التكلفة الإجمالية,same
+Total Cost,,optima_feed,التكلفة الإجمالية,إجمالي التكلفة,conflict
 Total Cost To Company (CTC),,optima_feed,إجمالي التكلفة على الشركة,إجمالي التكلفة على الشركة,same
 Total Costing Amount,,optima_feed,إجمالي مبلغ التكلفة,إجمالي مبلغ التكلفة,same
 Total Costing Amount (via Timesheet),,optima_feed,إجمالي مبلغ التكلفة (عبر سجلات الوقت),إجمالي مبلغ التكلفة (عبر سجلات الوقت),same
@@ -14239,7 +14239,7 @@ Transaction Dates,,optima_feed,تواريخ المعاملات,تواريخ ال
 Transaction Deletion Document {0} has been triggered for company {1},,optima_feed,تم تشغيل مستند حذف المعاملات {0} للشركة {1},تم تشغيل مستند حذف المعاملات {0} للشركة {1},same
 Transaction Deletion Record,,optima_feed,سجل حذف المعاملات,سجل حذف المعاملات,same
 Transaction Deletion Record Details,,optima_feed,تفاصيل سجل حذف المعاملات,تفاصيل سجل حذف المعاملات,same
-Transaction Deletion Record Item,,optima_feed,صنف سجل حذف المعاملات,بند سجل حذف المعاملات,conflict
+Transaction Deletion Record Item,,optima_feed,صنف سجل حذف المعاملات,صنف سجل حذف المعاملات,feed_override
 Transaction Deletion Record To Delete,,optima_feed,سجل حذف المعاملات المراد حذفه,سجل حذف المعاملات المراد حذفه,same
 Transaction Deletion Record {0} is already running. {1},,optima_feed,سجل حذف المعاملات {0} قيد التشغيل بالفعل. {1},سجل حذف المعاملات {0} قيد التشغيل بالفعل. {1},same
 Transaction Deletion Record {0} is currently deleting {1}. Cannot save documents until deletion completes.,,optima_feed,سجل حذف المعاملات {0} يحذف حاليًا {1}. لا يمكن حفظ المستندات حتى يكتمل الحذف.,سجل حذف المعاملات {0} يحذف حاليًا {1}. لا يمكن حفظ المستندات حتى يكتمل الحذف.,same
@@ -14750,7 +14750,7 @@ Variants,,optima_feed,الأصناف المتفرعة,الأصناف المتف�
 Vehicle Expenses,,optima_feed,مصروفات المركبات,مصروفات المركبات,same
 Vehicle Log,,optima_feed,سجل المركبة,سجل المركبة,same
 Vehicle Number,,optima_feed,رقم المركبة,رقم المركبة,same
-Vehicle Service Item,,optima_feed,صنف خدمة المركبة,بند خدمة المركبة,conflict
+Vehicle Service Item,,optima_feed,صنف خدمة المركبة,صنف خدمة المركبة,feed_override
 Vendor Name,,optima_feed,اسم المورد,اسم المورد,same
 Verdana,,optima_feed,Verdana,Verdana,same
 Verification,,optima_feed,التحقق,التحقق,same
@@ -15129,7 +15129,7 @@ Work Order not created,,optima_feed,لم يتم إنشاء أمر الإنتاج
 Work Order {0} created,,optima_feed,تم إنشاء أمر الإنتاج {0},تم إنشاء أمر الإنتاج {0},same
 Work Order {0} has no produced qty,,optima_feed,أمر الإنتاج {0} ليس له كمية منتجة,أمر الإنتاج {0} ليس له كمية منتجة,same
 Work Order {0}: Job Card not found for the operation {1},,optima_feed,أمر الإنتاج {0}: لم يتم العثور على بطاقة عمل للعملية {1},أمر الإنتاج {0}: لم يتم العثور على بطاقة عمل للعملية {1},same
-Work Orders,,optima_feed,أوامر إنتاج,أوامر إنتاج,same
+Work Orders,,optima_feed,أوامر إنتاج,أوامر التشغيل,conflict
 Work Orders Created: {0},,optima_feed,أوامر الإنتاج التي تم إنشاؤها: {0},أوامر الإنتاج التي تم إنشاؤها: {0},same
 Work Orders in Progress,,optima_feed,أوامر الإنتاج الجارية,أوامر الإنتاج الجارية,same
 Work References,,optima_feed,مراجع العمل,مراجع العمل,same
@@ -15532,7 +15532,7 @@ label,,optima_feed,تسمية,تسمية,same
 linkedin,,optima_feed,LinkedIn,LinkedIn,same
 logged in,,optima_feed,تم تسجيل الدخول,تم تسجيل الدخول,same
 m,Minutes (Field: Duration),optima_feed,د,د,same
-material_request_item,,optima_feed,صنف طلب المواد,بند طلب المواد,conflict
+material_request_item,,optima_feed,صنف طلب المواد,صنف طلب المواد,feed_override
 merged {0} into {1},,optima_feed,تم دمج {0} في {1},تم دمج {0} في {1},same
 mm-dd-yyyy,,optima_feed,شهر-يوم-سنة (mm-dd-yyyy),شهر-يوم-سنة (mm-dd-yyyy),same
 mm/dd/yyyy,,optima_feed,شهر/يوم/سنة (mm/dd/yyyy),شهر/يوم/سنة (mm/dd/yyyy),same
@@ -16064,7 +16064,7 @@ Driving License Expiry,,optima_hr,انتهاء رخصة القيادة,انته�
 Driving License No.,,optima_hr,رقم رخصة القيادة,رقم رخصة القيادة,new
 Early Checkout,,optima_hr,الخروج المبكر,الخروج المبكر,new
 Early Leave,,optima_hr,خروج مبكر,خروج مبكر,new
-Employee,,optima_hr,الموظف,موظف,conflict
+Employee,,optima_hr,الموظف,الموظف,same
 Employee Account number,,optima_hr,رقم حساب الموظف,رقم حساب الموظف,new
 Employee Advance Account not set in Optima HR Setting for this company.,,optima_hr,حساب سلف الموظفين غير موجود في اعدادت التطبيق لهذه الشركة,حساب سلف الموظفين غير موجود في اعدادت التطبيق لهذه الشركة,new
 Employee Bank ID,,optima_hr,رقم الحساب البنكي,رقم الحساب البنكي,new
@@ -16120,7 +16120,7 @@ Is Salary Structure Assignment Componant,,optima_hr,هو من مكونات تع�
 Is Saudi Arabia,,optima_hr,المملكة العربية السعودية,المملكة العربية السعودية,new
 Is vacation,,optima_hr,هي اجازة,هي اجازة,new
 Is vacationer,,optima_hr,هو مجاز,هو مجاز,new
-Issue Date,,optima_hr,تاريخ الاصدار,تاريخ التذكرة,conflict
+Issue Date,,optima_hr,تاريخ الاصدار,تاريخ الإصدار,conflict
 KSA HR Services,,optima_hr,خدمات الموارد البشرية السعودية,خدمات الموارد البشرية السعودية,new
 Landlord,,optima_hr,المؤجر,المؤجر,new
 Late Arrival,,optima_hr,تأخير عن الدوام,تأخير عن الدوام,new
@@ -16640,7 +16640,7 @@ Appraisal Cycle,,optima_zatca,دورة التقييم,دورة تقييم الأ
 Appraisal Overview,,optima_zatca,نظرة عامة على التقييم,نظرة عامة على تقييم الأداء,conflict
 Appreciate,,optima_zatca,يقدر,يقدر,new
 Approval Status,,optima_zatca,حالة الموافقة,حالة الاعتماد,conflict
-Approved,,optima_zatca,موافق عليه,تمت الموافقة,conflict
+Approved,,optima_zatca,موافق عليه,معتمد,conflict
 Arabic name missing for {} in the company document,,optima_zatca,الاسم العربي لـ {} مفقود في مستند الشركة,الاسم العربي لـ {} مفقود في مستند الشركة,new
 Are you sure want to delete the Post from Social Media platforms?,,optima_zatca,هل تريد بالتأكيد حذف المنشور من منصات التواصل الاجتماعي؟,هل تريد بالتأكيد حذف المنشور من منصات التواصل الاجتماعي؟,new
 Are you sure you want to delete this post?,,optima_zatca,هل أنت متأكد أنك تريد حذف هذه المشاركة؟,هل أنت متأكد أنك تريد حذف هذه المشاركة؟,new
@@ -16911,7 +16911,7 @@ Call To Action URL,,optima_zatca,عنوان URL لطلب إتخاذ إجراء,�
 Callback,,optima_zatca,أتصل مرة أخرى,رد الاتصال,conflict
 Callback URL,,optima_zatca,عاود الاتصال بالعنوان,عاود الاتصال بالعنوان,new
 Camera,,optima_zatca,كاميرا,الكاميرا,conflict
-Campaign Item,,optima_zatca,صنف الحملة,بند الحملة,conflict
+Campaign Item,,optima_zatca,صنف الحملة,صنف الحملة,same
 Can Read,,optima_zatca,يمكنه القراءة,يمكنه القراءة,new
 Can Share,,optima_zatca,يمكن مشاركة,يمكن مشاركة,new
 Can Submit,,optima_zatca,يمكن الترحيل,يمكن الترحيل,new
@@ -17291,7 +17291,7 @@ Custom Translations,,optima_zatca,ترجمة مخصصة,ترجمة مخصصة,ne
 Customer ,,optima_zatca,عميل,عميل,same
 Customer Address is mandatory to fetch customer GSTIN details. Please set Company Address and try again.,,optima_zatca,عنوان العميل إلزامي لجلب تفاصيل رقم العميل الضريبى. يرجى تعيين عنوان الشركة والمحاولة مرة أخرى.,عنوان العميل إلزامي لجلب تفاصيل رقم العميل الضريبى. يرجى تعيين عنوان الشركة والمحاولة مرة أخرى.,new
 Customer Defaults,,optima_zatca,افتراضيات العملاء,القيم الافتراضية للعميل,conflict
-Customer Group Item,,optima_zatca,صنف مجموعة العملاء,بند مجموعة العملاء,conflict
+Customer Group Item,,optima_zatca,صنف مجموعة العملاء,صنف مجموعة العملاء,same
 Customer Info,,optima_zatca,معلومات العميل,معلومات العميل,new
 Customer Item,,optima_zatca,صنف العميل,صنف العميل,same
 Customer Ledger Summary,,optima_zatca,ملخص دفتر استاذ العملاء,ملخص دفتر أستاذ العملاء,conflict
@@ -17518,7 +17518,7 @@ Document Naming,,optima_zatca,تسمية الوثيقة,تسمية المستن�
 Document Naming Rule,,optima_zatca,قاعدة تسمية المستند,قاعدة تسمية المستند,same
 Document Share Report,,optima_zatca,تقرير مشاركة المستند,تقرير مشاركة المستند,same
 Document States,,optima_zatca,حالات المستند,حالات المستند,same
-Document Type,,optima_zatca,نوع المستند,نوع المستند,same
+Document Type,,optima_zatca,نوع المستند,نوع الوثيقة,conflict
 Document Type Field Mapping,,optima_zatca,نوع المستند تعيين الحقل,نوع المستند تعيين الحقل,new
 Document Type Mapping,,optima_zatca,تعيين نوع المستند,تعيين نوع المستند,new
 Document Type already used as a dimension,,optima_zatca,نوع المستند مستخدم بالفعل كبعد,نوع المستند مستخدم بالفعل كبُعد,conflict
@@ -17693,7 +17693,7 @@ Enable In App Website Tracking,,optima_zatca,تمكين تتبع موقع الت
 Enable Onboarding,,optima_zatca,تمكين مساعد بداية العمل,تفعيل التهيئة الأولية,conflict
 Enable Provisional Accounting For Non Stock Items,,optima_zatca,تمكين المحاسبة المؤقتة للبنود غير المخزونة,تفعيل المحاسبة المؤقتة للأصناف غير المخزنية,conflict
 Enable developer mode to create a standard Web Template,,optima_zatca,قم بتمكين وضع المطور لإنشاء نموذج ويب قياسي,فعّل وضع المطور لإنشاء قالب ويب قياسي,conflict
-Enabled,,optima_zatca,ممكن,مفعّل,conflict
+Enabled,,optima_zatca,ممكن,مفعل,conflict
 Enabled email inbox for user {0},,optima_zatca,صندوق الوارد للبريد الإلكتروني المُمكّن للموظف {0},تم تفعيل صندوق البريد الوارد للمستخدم {0},conflict
 Enabling ensure each Purchase Invoice has a unique value in Supplier Invoice No. field,,optima_zatca,تمكين التأكد من أن كل فاتورة شراء لها قيمة فريدة في حقل رقم فاتورة المورد,تمكين التأكد من أن كل فاتورة شراء لها قيمة فريدة في حقل رقم فاتورة المورد,new
 Enabling this option will round off individual GST components in all the Invoices,,optima_zatca,سيؤدي تمكين هذا الخيار إلى تقريب مكونات ضريبة الأصناف والخدمات الفردية في جميع الفواتير,سيؤدي تمكين هذا الخيار إلى تقريب مكونات ضريبة الأصناف والخدمات الفردية في جميع الفواتير,new
@@ -18482,7 +18482,7 @@ Is Zero Rated,,optima_zatca,تقيمه صفر,تقيمه صفر,new
 Is this Default?,,optima_zatca,هل هذا افتراضي؟,هل هذا افتراضي؟,new
 Issue,,optima_zatca,طلب صيانة,مشكلة,conflict
 Issue Analytics,,optima_zatca,تحليلات المشكلة,تحليلات التذاكر,conflict
-Issue Date,,optima_zatca,تاريخ الإصدار,تاريخ التذكرة,conflict
+Issue Date,,optima_zatca,تاريخ الإصدار,تاريخ الإصدار,same
 Issue Priority,,optima_zatca,أولويات الصيانة,أولوية التذكرة,conflict
 Issue Status,,optima_zatca,حالة طلبات الصيانة,حالة المشكلة,conflict
 Issue Summary,,optima_zatca,ملخص المشكلة,ملخص التذاكر,conflict
@@ -20659,7 +20659,7 @@ Sum of all previous slabs,,optima_zatca,مجموع كل الشرائح السا�
 Supplied Item,,optima_zatca,الصنف المورد,صنف مورَّد,conflict
 Supplier Address Details,,optima_zatca,تفاصيل عنوان المورد,تفاصيل عنوان المورد,new
 Supplier Contact,,optima_zatca,الاتصال بالمورد,الاتصال بالمورد,new
-Supplier Group Item,,optima_zatca,صنف مجموعة الموردين,بند مجموعة الموردين,conflict
+Supplier Group Item,,optima_zatca,صنف مجموعة الموردين,صنف مجموعة الموردين,same
 Supplier Invoice,,optima_zatca,فاتورة المورد,فاتورة المورد,new
 Supplier Item,,optima_zatca,صنف المورد,صنف المورد,same
 Supplier Ledger Summary,,optima_zatca,ملخص دفتر أستاذ الموردين,ملخص دفتر أستاذ المورد,conflict
@@ -20740,7 +20740,7 @@ Term Detail,,optima_zatca,تفاصيل الشروط,تفاصيل الشروط,ne
 Terms & Conditions,,optima_zatca,الشروط و الاحكام,الشروط و الاحكام,new
 Terms Template,,optima_zatca,قالب الشروط,قالب الشروط,same
 Territories,,optima_zatca,اقليم,اقليم,new
-Territory Item,,optima_zatca,صنف التوزيع الجغرافى,بند المنطقة,conflict
+Territory Item,,optima_zatca,صنف التوزيع الجغرافى,صنف المنطقة,conflict
 Territory not found,,optima_zatca,لم يتم العثور على المنطقة,لم يتم العثور على المنطقة,new
 Territory-wise Sales,,optima_zatca,تحليل المبيعات على مستوى الاقاليم,المبيعات حسب المنطقة,conflict
 Test,,optima_zatca,اختبار,اختبار,new
@@ -21011,7 +21011,7 @@ Trans Amount is required,,optima_zatca,المبلغ المحول مطلوب,ال
 Trans ID,,optima_zatca,معرف التحويل,معرف التحويل,new
 Trans Time,,optima_zatca,وقت التحويل,وقت التحويل,new
 Transaction Deletion Record,,optima_zatca,سجل حذف المعاملة,سجل حذف المعاملات,conflict
-Transaction Deletion Record Item,,optima_zatca,صنف سجل حذف المعاملة,بند سجل حذف المعاملات,conflict
+Transaction Deletion Record Item,,optima_zatca,صنف سجل حذف المعاملة,صنف سجل حذف المعاملات,conflict
 Transaction Hash,,optima_zatca,تجزئة المعاملة,تجزئة المعاملة,new
 Transaction Limit,,optima_zatca,حد الحركة,حد الحركة,new
 Transaction Settings,,optima_zatca,إعدادات المعاملات,إعدادات المعاملات,new

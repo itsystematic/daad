@@ -9,7 +9,7 @@ app_logo_url = "/assets/daad/images/daad-logo.svg"
 # Apps
 # ------------------
 
-# required_apps = []
+required_apps = ["erpnext"]
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
@@ -273,3 +273,4 @@ web_include_css = "daad.bundle.css"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+after_migrate = "daad.load_order.check_load_order"
