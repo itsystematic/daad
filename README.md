@@ -10,6 +10,8 @@ Arabic is known as *the language of Ḍād* (لغة الضاد). This app is our
 
 > **بالعربي:** ترجمة عربية بشرية كاملة لنظام ERPNext v16، مع خط المراعي في كل أجزاء النظام. مجانية ومفتوحة المصدر.
 
+> **Community app.** DaaD covers Frappe, ERPNext and HRMS only. It is **not for sites running [Optima ZATCA](https://github.com/itsystematic/optima_zatca)**: Optima ZATCA already carries this translation, the Arabic of the Optima apps and the Almarai font, and the two apps would override each other's translations and font settings. On such a site, uninstall DaaD.
+
 ---
 
 ## 📸 Before & After
@@ -23,7 +25,7 @@ Arabic is known as *the language of Ḍād* (لغة الضاد). This app is our
 ## 🚀 What's Inside
 
 ### **Human Arabic Translation**
-- **14,883 strings** translated by people who implement ERPNext every day — not machine translation.
+- **15,131 strings** translated by people who implement ERPNext every day — not machine translation.
 - Covers **ERPNext, Frappe and HRMS** for **version 16**.
 - Includes the hard places: dashboards, settings dialogs, the new **dock** and sidebar, popups and tooltips.
 - The **HR module** is fully translated.
@@ -89,6 +91,8 @@ Found a wrong or missing translation? We welcome your help.
 2. Edit `daad/locale/ar.po`. Each entry is a `msgid` (English source) with its `msgstr` (Arabic translation); ambiguous terms also have a `msgctxt`.
 3. Keep the English source text exactly as it appears in Frappe (including punctuation and placeholders like `{0}`).
 4. Open a pull request and explain the change, with a screenshot if possible.
+
+`daad/locale/ar.po` is generated from IT Systematic's maintained Arabic source. Accepted pull requests are reviewed into that source and stay in every later release.
 
 You can also report a problem in [GitHub Issues](https://github.com/itsystematic/daad/issues).
 
