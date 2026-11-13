@@ -1,5 +1,6 @@
 """DaaD's Arabic must load after the apps it overrides. This only reports a wrong order, it never reorders."""
 
+import click
 import frappe
 
 MUST_LOAD_BEFORE_DAAD = ("frappe", "erpnext", "hrms")
@@ -22,5 +23,5 @@ def check_load_order():
 		"DaaD did not change the order."
 	)
 	frappe.log_error(title="DaaD load order", message=message)
-	print(f"WARNING: {message}")
+	click.echo(f"WARNING: {message}")
 	return message
