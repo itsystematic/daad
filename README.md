@@ -25,7 +25,7 @@ Arabic is known as *the language of Ḍād* (لغة الضاد). This app is our
 ## 🚀 What's Inside
 
 ### **Human Arabic Translation**
-- **15,131 strings** translated by people who implement ERPNext every day — not machine translation.
+- **15,133 strings** translated by people who implement ERPNext every day — not machine translation.
 - Covers **ERPNext, Frappe and HRMS** for **version 16**.
 - Includes the hard places: dashboards, settings dialogs, the new **dock** and sidebar, popups and tooltips.
 - The **HR module** is fully translated.

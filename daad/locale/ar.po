@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: DaaD VERSION\n"
 "Report-Msgid-Bugs-To: yasserelbana@itsystematic.com\n"
 "POT-Creation-Date: 2026-11-09 14:07+0000\n"
-"PO-Revision-Date: 2026-11-13 13:08+0000\n"
+"PO-Revision-Date: 2026-11-13 14:19+0000\n"
 "Last-Translator: yasserelbana@itsystematic.com\n"
 "Language: ar\n"
 "Language-Team: yasserelbana@itsystematic.com\n"
@@ -8233,6 +8233,9 @@ msgstr "يجب أن يكون حساب الإقفال {0} من نوع التزا�
 
 msgid "Closing Amount"
 msgstr "مبلغ الإقفال"
+
+msgid "Closing Balance"
+msgstr "الرصيد الختامي"
 
 msgctxt "Do MMMM YYYY"
 msgid "Closing Balance as of {}"
@@ -25182,6 +25185,9 @@ msgstr "الإهلاك المتراكم الافتتاحي"
 
 msgid "Opening Amount"
 msgstr "المبلغ الافتتاحي"
+
+msgid "Opening Balance"
+msgstr "الرصيد الافتتاحي"
 
 msgid "Opening Balances"
 msgstr "الأرصدة الافتتاحية"
