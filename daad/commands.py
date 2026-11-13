@@ -17,7 +17,8 @@ def _single(value):
 
 def _read_catalog(path):
 	"""{(msgid, msgctxt): msgstr} from a PO file. Untranslated and fuzzy entries have an empty msgstr."""
-	with open(path, "rb") as f:
+	# bench CLI only, never reached over HTTP: path is an app PO file from frappe.get_app_path / get_po_path
+	with open(path, "rb") as f:  # nosemgrep
 		catalog = read_po(f)
 	return {
 		(_single(message.id), message.context or None): "" if message.fuzzy else (_single(message.string) or "")
@@ -91,7 +92,8 @@ def harvest():
 
 	target = Path(frappe.get_app_path("daad")) / "harvest" / f"{today()}.csv"
 	target.parent.mkdir(parents=True, exist_ok=True)
-	with open(target, "w", newline="", encoding="utf-8") as f:
+	# bench CLI only, never reached over HTTP: target is fixed under the daad app folder
+	with open(target, "w", newline="", encoding="utf-8") as f:  # nosemgrep
 		writer = csv.writer(f)
 		writer.writerow(FIELDS)
 		for (msgid, msgctxt), label, found, current, status in rows:
@@ -107,11 +109,13 @@ def apply_file(path):
 	from frappe.gettext.translate import _compile_translation, get_po_path, write_catalog
 
 	po_path = get_po_path("daad", "ar")
-	with open(po_path, "rb") as f:
+	# bench CLI only, never reached over HTTP: po_path is daad's own ar.po from get_po_path
+	with open(po_path, "rb") as f:  # nosemgrep
 		catalog = read_po(f)
 
 	added = updated = 0
-	with open(path, newline="", encoding="utf-8") as f:
+	# bench CLI only, never reached over HTTP: path is the --apply file the operator names on the server
+	with open(path, newline="", encoding="utf-8") as f:  # nosemgrep
 		for row in csv.DictReader(f):
 			if (row.get("approved") or "").strip().lower() != "yes":
 				continue
@@ -128,7 +132,8 @@ def apply_file(path):
 				updated += 1
 
 	write_catalog("daad", catalog, "ar")
-	with open(po_path, "rb") as f:
+	# bench CLI only, never reached over HTTP: po_path is daad's own ar.po from get_po_path
+	with open(po_path, "rb") as f:  # nosemgrep
 		read_po(f)  # refuse to report success on a catalog that does not parse
 	_compile_translation("daad", "ar", force=True)
 	click.echo(f"Added {added}, updated {updated}. Run bench --site <site> clear-cache to see them.")
