@@ -1,3 +1,14 @@
+/* Claudion draws only the Saudi Riyal sign. It must stay ahead of Almarai in --font-stack, because
+   Almarai has its own, older glyph for U+FDFC. */
+@font-face {
+  font-family: 'Claudion';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/daad/fonts/Claudion.ttf') format('truetype');
+  unicode-range: U+20C0, U+FDFC;
+}
+
 /* Almarai (Google Fonts, SIL OFL 1.1) - self-hosted. DaaD */
 @font-face {
   font-family: 'Almarai';
@@ -69,7 +80,7 @@
 :root,
 [data-theme="light"],
 [data-theme="dark"] {
-	--font-stack: "Almarai", "Segoe UI", "Tahoma", sans-serif;
+	--font-stack: "Claudion", "Almarai", "Segoe UI", "Tahoma", sans-serif;
 }
 /* Frappe Charts injects its own font-family on .chart-container (axis labels, legend, tooltips),
    so it must be overridden explicitly. SVG <text> inherits from the container. */
