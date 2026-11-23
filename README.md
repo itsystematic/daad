@@ -27,8 +27,8 @@ Screenshots taken on version 16.
 ## 🚀 What's Inside
 
 ### **Human Arabic Translation**
-- **15,133 strings** translated by people who implement ERPNext every day — not machine translation.
-- Made for **ERPNext, Frappe and HRMS** version 16 and shipped here in the CSV format that version 15 reads. About **9,700** of them match strings in version 15. A version 15 string that DaaD does not cover keeps the Arabic that ships with Frappe, ERPNext and HRMS.
+- **17,743 strings** translated by people who implement ERPNext every day — not machine translation.
+- Made for **ERPNext, Frappe and HRMS** version 16 and shipped here in the CSV format that version 15 reads, plus **1,522** strings that only version 15 has. About **11,200** of them match strings in version 15. A version 15 string that DaaD does not cover keeps the Arabic that ships with Frappe, ERPNext and HRMS.
 - Includes the hard places: dashboards, settings dialogs, popups and tooltips.
 - Business terminology chosen for real use in Saudi and Gulf companies.
 
