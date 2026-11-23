@@ -22,21 +22,11 @@ required_apps = ["erpnext"]
 # 	}
 # ]
 
-# The dock, the rail down the left of the desk, is a document rather than a hook. Author it in
-# Manage Dock on a developer-mode site and press Export to App, and it is written to
-# `daad/dock/daad/daad.json` for git to carry. An app that ships none has no
-# rail: its sidebar gets a switcher in the header instead.
-#
-# A companion app, one that extends a host app rather than standing on its own, says so with
-# `mount_on` on that same record, and its entries are appended to the host's rail. Mounting keeps
-# the companion off the apps screen, so it takes precedence over any add_to_apps_screen above.
-
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
 app_include_css = "daad.bundle.css"
-app_include_js = "/assets/daad/js/daad_i18n.js"
 
 # include js, css files in header of web template
 web_include_css = "daad.bundle.css"
@@ -55,7 +45,6 @@ web_include_css = "daad.bundle.css"
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
-# doctype_kanban_js = {"doctype" : "public/js/doctype_kanban.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
@@ -80,9 +69,6 @@ web_include_css = "daad.bundle.css"
 
 # automatically create page for each record of this doctype
 # website_generators = ["Web Page"]
-
-# automatically load and sync documents of this doctype from downstream apps
-# importable_doctypes = [doctype_1]
 
 # Jinja
 # ----------
@@ -121,23 +107,11 @@ web_include_css = "daad.bundle.css"
 # before_app_uninstall = "daad.utils.before_app_uninstall"
 # after_app_uninstall = "daad.utils.after_app_uninstall"
 
-# Build
-# ------------------
-# To hook into the build process
-
-# after_build = "daad.build.after_build"
-
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
 # notification_config = "daad.notifications.get_notification_config"
-
-# Awesome Bar
-# -----------
-# Extra search results: list of dicts with label, description, route, index.
-# route: ["List", "ToDo"], "/desk/docs/some/page", or "https://example.com"
-# awesomebar_search = ["daad.search.awesomebar_results"]
 
 # Permissions
 # -----------
@@ -188,14 +162,6 @@ web_include_css = "daad.bundle.css"
 # -------
 
 # before_tests = "daad.install.before_tests"
-
-# Extend DocType Class
-# ------------------------------
-#
-# Specify custom mixins to extend the standard doctype controller.
-# extend_doctype_class = {
-# 	"Task": "daad.custom.task.CustomTaskMixin"
-# }
 
 # Overriding Methods
 # ------------------------------
