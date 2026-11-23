@@ -1,4 +1,10 @@
-"""`bench --site <site> daad-harvest`: collect Arabic found outside DaaD for human review."""
+"""DaaD's bench commands for Frappe v15, where DaaD's Arabic lives in `daad/translations/ar.csv`.
+
+- `bench --site <site> daad-harvest` collects Arabic found outside DaaD for human review, and
+  `--apply <file>` merges the reviewed rows marked approved.
+- `bench daad-import-po <ar.po>` merges a PO catalog, such as `daad/locale/ar.po` on the
+  version-16 branch, into the CSV.
+"""
 
 import csv
 from pathlib import Path
@@ -9,6 +15,7 @@ from frappe.commands import get_site, pass_context
 
 CORE_APPS = ("frappe", "erpnext", "hrms")
 FIELDS = ["msgid", "msgctxt", "source", "found_translation", "daad_translation", "status", "approved"]
+DAAD_CSV = Path(__file__).parent / "translations" / "ar.csv"
 
 
 def _single(value):
@@ -40,6 +47,27 @@ def _read_csv(path):
 		if msgid and msgstr:
 			entries[(msgid, (row[2] or None) if len(row) == 3 else None)] = msgstr
 	return entries
+
+
+def _read_daad_csv():
+	return _read_csv(DAAD_CSV) if DAAD_CSV.exists() else {}
+
+
+def _by_msgid(item):
+	(msgid, msgctxt), _msgstr = item
+	return msgid, msgctxt or ""
+
+
+def _write_daad_csv(entries):
+	"""Write entries sorted so diffs stay small, then read the file back the way Frappe will."""
+	DAAD_CSV.parent.mkdir(exist_ok=True)
+	with open(DAAD_CSV, "w", newline="", encoding="utf-8") as f:
+		writer = csv.writer(f, lineterminator="\n")
+		for (msgid, msgctxt), msgstr in sorted(entries.items(), key=_by_msgid):
+			writer.writerow([msgid, msgstr, msgctxt] if msgctxt else [msgid, msgstr])
+
+	if _read_csv(DAAD_CSV) != entries:
+		raise click.ClickException(f"{DAAD_CSV} does not read back as written. Restore it with git.")
 
 
 def _sources(apps):
@@ -80,14 +108,30 @@ def build_rows(daad, sources):
 	return rows
 
 
+def merge(entries, updates):
+	"""Apply (key, msgstr) updates to a copy of entries. Return it with the added and updated counts."""
+	from frappe.utils import strip
+
+	merged, added, updated = dict(entries), 0, 0
+	for key, msgstr in updates:
+		msgstr = strip(msgstr)
+		current = merged.get(key)
+		if not msgstr or current == msgstr:
+			continue
+		if current is None:
+			added += 1
+		else:
+			updated += 1
+		merged[key] = msgstr
+	return merged, added, updated
+
+
 def harvest():
 	import frappe
-	from frappe.gettext.translate import get_po_path
 	from frappe.utils import today
 
-	daad = {key: value for key, value in _read_catalog(get_po_path("daad", "ar")).items() if value}
 	apps = [app for app in frappe.get_installed_apps() if app != "daad"]
-	rows = build_rows(daad, _sources(apps))
+	rows = build_rows(_read_daad_csv(), _sources(apps))
 
 	target = Path(frappe.get_app_path("daad")) / "harvest" / f"{today()}.csv"
 	target.parent.mkdir(parents=True, exist_ok=True)
@@ -102,15 +146,8 @@ def harvest():
 	return target, counts
 
 
-def apply_file(path):
-	"""Merge only rows with approved = yes into DaaD's ar.po, then compile it."""
-	from frappe.gettext.translate import _compile_translation, get_po_path, write_catalog
-
-	po_path = get_po_path("daad", "ar")
-	with open(po_path, "rb") as f:
-		catalog = read_po(f)
-
-	added = updated = 0
+def _approved(path):
+	"""Yield (key, msgstr) for each review row marked approved = yes."""
 	with open(path, newline="", encoding="utf-8") as f:
 		for row in csv.DictReader(f):
 			if (row.get("approved") or "").strip().lower() != "yes":
@@ -119,19 +156,26 @@ def apply_file(path):
 			if not msgid or not msgstr:
 				click.echo(f"Skipped, no translation: {msgid!r}")
 				continue
-			message = catalog.get(msgid, msgctxt)
-			if message is None:
-				catalog.add(msgid, msgstr, context=msgctxt)
-				added += 1
-			elif message.string != msgstr:
-				message.string = msgstr
-				updated += 1
+			yield (msgid, msgctxt), msgstr
 
-	write_catalog("daad", catalog, "ar")
-	with open(po_path, "rb") as f:
-		read_po(f)  # refuse to report success on a catalog that does not parse
-	_compile_translation("daad", "ar", force=True)
+
+def apply_file(path):
+	"""Merge only rows with approved = yes into DaaD's ar.csv."""
+	entries, added, updated = merge(_read_daad_csv(), _approved(path))
+	_write_daad_csv(entries)
 	click.echo(f"Added {added}, updated {updated}. Run bench --site <site> clear-cache to see them.")
+	return added, updated
+
+
+def import_po(path):
+	"""Merge the translated entries of a PO catalog into DaaD's ar.csv. Rows the catalog lacks are kept."""
+	translated = ((key, msgstr) for key, msgstr in _read_catalog(path).items() if msgstr)
+	entries, added, updated = merge(_read_daad_csv(), translated)
+	_write_daad_csv(entries)
+	click.echo(
+		f"{DAAD_CSV}: added {added}, updated {updated}, {len(entries)} rows. "
+		"Run bench --site <site> clear-cache to see them."
+	)
 	return added, updated
 
 
@@ -152,4 +196,10 @@ def daad_harvest(context, apply_path=None):
 		frappe.destroy()
 
 
-commands = [daad_harvest]
+@click.command("daad-import-po", help="Merge a PO catalog, such as version-16's ar.po, into DaaD's ar.csv")
+@click.argument("po_path", type=click.Path(exists=True, dir_okay=False))
+def daad_import_po(po_path):
+	import_po(po_path)
+
+
+commands = [daad_harvest, daad_import_po]
