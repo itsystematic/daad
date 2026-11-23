@@ -43,6 +43,11 @@ Some labels in Frappe are rendered without `__()`, so a normal translation file 
 - Self-hosted inside the app — no calls to Google Fonts.
 - Frappe Charts (axes, legends, tooltips) use the same font.
 
+### **Saudi Riyal Sign**
+- The new Saudi Riyal sign is drawn by the self-hosted **Claudion** font wherever the text holds `⃀` (U+20C0) or the older `﷼` (U+FDFC).
+- Claudion is used for those two characters only; all other text stays in Almarai.
+- Frappe's default symbol for SAR is `ر.س`. To show the sign on amounts, set the **Symbol** of the **SAR** Currency to `⃀`.
+
 ---
 
 ## 📦 Installation
