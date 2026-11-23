@@ -28770,7 +28770,7 @@ msgid "Pickup Contact Person"
 msgstr "إختار الشخص المسؤول"
 
 msgid "Pickup Date"
-msgstr "اختر تاريخا"
+msgstr "تاريخ الاستلام"
 
 msgid "Pickup Date cannot be before this day"
 msgstr "لا يمكن أن يكون تاريخ الاستلام قبل هذا اليوم"
